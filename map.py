@@ -51,6 +51,15 @@ st.write("""
  """) 
 if check_password():  
     st.sidebar.image(['https://media.giphy.com/media/uShpe8u5laTlB19yFk/giphy.gif'], width=280, output_format="GIF")
+   
+    PAGES = {
+    "Main Page": main,
+    "MSME Branches": msme
+    }
+    st.sidebar.title('Navigation')
+    selection = st.sidebar.radio("Go to", list(PAGES.keys()))
+    page = PAGES[selection]
+    page.app()
     
     def sidebar_bg():
 
@@ -68,22 +77,6 @@ if check_password():
 
  
     sidebar_bg()
-
-
-
-    PAGES = {
-    "Main Page": main,
-    "MSME Branches": msme
-    }
-    st.sidebar.title('Navigation')
-    selection = st.sidebar.radio("Go to", list(PAGES.keys()))
-    page = PAGES[selection]
-    page.app()
-    
-    st.write("""
-    # 
-    """)  
-    
    
     
    
