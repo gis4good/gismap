@@ -19,6 +19,26 @@ def check_password():
     st.write("""
     # Map Dashboard 
     """)
+    def set_bg_hack_url():
+        '''
+        A function to unpack an image from url and set as bg.
+        Returns
+        -------
+        The background.
+        '''
+            
+        st.markdown(
+             f"""
+             <style>
+             .stApp {{
+                 background: url("https://carbidesecure.com/wp-content/themes/carbide_custom/images/blog-placeholder.svg");
+                 background-size: cover
+             }}
+             </style>
+             """,
+             unsafe_allow_html=True
+         )
+    set_bg_hack_url() 
 
     def password_entered():
         """Checks whether a password entered by the user is correct."""
