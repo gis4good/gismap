@@ -1,0 +1,6 @@
+streamlit
+numpy
+pydeck
+matplotlib
+streamlit_folium
+folium
