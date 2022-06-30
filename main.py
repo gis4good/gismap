@@ -27,7 +27,7 @@ def app():
              f"""
              <style>
              .stApp {{
-                 background: url("https://static.vecteezy.com/system/resources/previews/002/849/000/original/modern-dark-background-with-gradient-geometric-shape-themes-vector.jpg");
+                 background: url("https://images.unsplash.com/photo-1535478044878-3ed83d5456ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
                  background-size: cover
              }}
              </style>
