@@ -5,7 +5,7 @@ Created on Tue Jun 28 10:37:34 2022
 @author: THIS-LAPPY
 """
 
-import streamlit as st,msme,main
+import streamlit as st,msme,main,poly
 import streamlit.components.v1 as components
 
 # >>> import plotly.express as px
@@ -74,7 +74,8 @@ if check_password():
    
     PAGES = {
     "Main Page": main,
-    "MSME Branches": msme
+    "MSME Branches": msme,
+    "Poly":poly    
     }
     st.sidebar.title('Navigation')
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
