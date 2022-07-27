@@ -6,7 +6,7 @@ Created on Mon Jun 20 15:03:13 2022
 """
 import streamlit as st,numpy as np
 import matplotlib.pyplot as plt
-import plotly.graph_objects as go
+#import plotly.graph_objects as go
 import plotly.express as px
 import base64
 import folium
@@ -14,7 +14,7 @@ from streamlit_folium import st_folium,folium_static
 import folium.plugins as plugins
 from folium.plugins import MarkerCluster
 import streamlit.components.v1 as components
-import bar_chart_race as bcr
+#import bar_chart_race as bcr
 
 
 
