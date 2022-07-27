@@ -4,3 +4,4 @@ pydeck
 matplotlib
 streamlit_folium
 folium
+plotly
