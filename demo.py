@@ -7,7 +7,7 @@ Created on Mon Jun 20 15:03:13 2022
 import streamlit as st,numpy as np
 import matplotlib.pyplot as plt
 #import plotly.graph_objects as go
-import plotly.express as px
+#import plotly.express as px
 import base64
 import folium
 from streamlit_folium import st_folium,folium_static
