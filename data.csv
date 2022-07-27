@@ -1,0 +1,894 @@
+Sno,Branch,Value (in Cr),Zone,State,lat,lon,country
+1,Gadhada,12.07253725,Ahmedabad,Gujarat,21.94074698,71.53881748,ind
+2,Botad,9.411048474,Ahmedabad,Gujarat,22.1722509,71.663622,ind
+3,Dhanduka,11.04413201,Ahmedabad,Gujarat,22.3818623,71.9806723,ind
+4,Khajuwala,4.346150602,Jhunjhunu,Rajasthan,28.70355568,72.59308574,ind
+5,Tarapur(Gj),12.2244299,Ahmedabad,Gujarat,22.489187,72.657513,ind
+6,Kheda,4.085780261,Ahmedabad,Gujarat,22.750939,72.684405,ind
+7,Danta,4.181887898,Ahmedabad,Gujarat,24.19316925,72.76684915,ind
+8,Abu Road,7.531690412,Udaipur,Rajasthan,24.467006,72.76976,ind
+9,Sirohi,10.45978612,Udaipur,Rajasthan,24.89026668,72.85534668,ind
+10,Borsad,9.597595958,Ahmedabad,Gujarat,22.41818,72.897403,ind
+11,Vadali,3.492614929,Ahmedabad,Gujarat,23.9249143,73.03201787,ind
+12,Gharsana,9.316396306,Jhunjhunu,Rajasthan,29.02485866,73.07453145,ind
+13,Umreth,5.305023717,Ahmedabad,Gujarat,22.698686,73.113863,ind
+14,Anupgarh,4.269490147,Jhunjhunu,Rajasthan,29.189527,73.208533,ind
+15,Falna,2.820143084,Udaipur,Rajasthan,25.233375,73.236954,ind
+16,Bhiloda,9.531111876,Ahmedabad,Gujarat,23.76499479,73.24264523,ind
+17,Mandvi,5.309596364,Ahmedabad,Gujarat,21.27989861,73.31531862,ind
+18,Pali(RJ),7.90330564,Udaipur,Rajasthan,25.754083,73.32293,ind
+19,Shamlaji,9.867597853,Ahmedabad,Gujarat,23.68703465,73.38299998,ind
+20,Raisinghnagar,6.997401552,Jhunjhunu,Rajasthan,29.53564,73.44092,ind
+21,Holal,10.76007516,Ahmedabad,Gujarat,22.507181,73.47165,ind
+22,Umarpada,5.61152325,Ahmedabad,Gujarat,21.45202711,73.48205579,ind
+23,Pipar City,3.873391013,Udaipur,Rajasthan,26.390259,73.529819,ind
+24,Jhadol,9.723893736,Udaipur,Rajasthan,24.35938818,73.53333083,ind
+25,Dediapada,4.298397765,Ahmedabad,Gujarat,21.62715929,73.59477366,ind
+26,Godhra,10.31744068,Ahmedabad,Gujarat,22.7788044,73.6142795,ind
+27,Sojat,12.36899626,Udaipur,Rajasthan,25.92828,73.6703,ind
+28,Kesariyaji,7.487903354,Udaipur,Rajasthan,24.07440778,73.68425876,ind
+29,Dungarpur,4.863640897,Udaipur,Rajasthan,23.832114,73.712307,ind
+30,Bodeli,10.1021634,Ahmedabad,Gujarat,22.2719,73.7129,ind
+31,Nathwara,4.857684364,Udaipur,Rajasthan,24.92672825,73.83788428,ind
+32,Sriganganagar,4.969483903,Jhunjhunu,Rajasthan,29.90910984,73.86580732,ind
+33,Santrampur,3.44871708,Ahmedabad,Gujarat,23.191493,73.895931,ind
+34,Suratgarh,11.51148181,Jhunjhunu,Rajasthan,29.332597,73.902038,ind
+35,Devgarh,5.324354504,Udaipur,Rajasthan,25.524191,73.907996,ind
+36,Merta Road,7.409130448,Kota,Rajasthan,26.722881,73.91605,ind
+37,Devgadh Balia,9.753462619,Ahmedabad,Gujarat,22.703946,73.916252,ind
+38,Amet,11.02938184,Udaipur,Rajasthan,25.30220837,73.92256009,ind
+39,Chikhali,3.412133411,Udaipur,Rajasthan,23.43679854,73.9505058,ind
+40,Shri Dungargarh,8.147176911,Jhunjhunu,Rajasthan,28.09563612,74.01203099,ind
+41,Sagwara,8.602334149,Udaipur,Rajasthan,23.6667,74.023773,ind
+42,Salumbar,2.668372845,Udaipur,Rajasthan,24.138176,74.040544,ind
+43,Bhim,5.667005206,Udaipur,Rajasthan,25.7415489,74.0799469,ind
+44,Fatehnagar,7.079747361,Udaipur,Rajasthan,24.811785,74.086317,ind
+45,Niphad,8.13641097,Aurangabad,Maharashtra,20.084444,74.100024,ind
+46,Limdi,9.912607352,Ahmedabad,Gujarat,23.012327,74.152125,ind
+47,Sabla,4.338514556,Udaipur,Rajasthan,23.85151102,74.18830766,ind
+48,Satana,11.38148708,Aurangabad,Maharashtra,20.595804,74.204792,ind
+49,Sangamner,10.7103958,Aurangabad,Maharashtra,19.56884,74.205489,ind
+50,Dahod,6.606018131,Ahmedabad,Gujarat,22.84133099,74.24862953,ind
+51,Gangapur,8.967326716,Udaipur,Rajasthan,25.21743,74.25464,ind
+52,Hanumangarh,9.493569676,Jhunjhunu,Rajasthan,29.608037,74.292102,ind
+53,Sajjangarh,6.10193867,Udaipur,Rajasthan,23.25928344,74.30475128,ind
+54,Degana,7.532028856,Kota,Rajasthan,26.89417062,74.31834696,ind
+55,Alirajpur,3.524295667,Khandwa,Madhya Pradesh,22.3059709,74.3558148,ind
+56,Shirur,5.916611712,Aurangabad,Maharashtra,18.813452,74.364522,ind
+57,Dhariyawad,4.740571221,Udaipur,Rajasthan,23.952072,74.380772,ind
+58,Ghatol,6.712397773,Udaipur,Rajasthan,23.73503444,74.40747886,ind
+59,Banswara,6.987318474,Udaipur,Rajasthan,23.555844,74.430955,ind
+60,Manmad,6.033636699,Aurangabad,Maharashtra,20.244643,74.434572,ind
+61,Sujangarh,6.436424623,Jhunjhunu,Rajasthan,27.701924,74.46402212,ind
+62,Bari Sadri,7.998192399,Udaipur,Rajasthan,24.4129645,74.4735495,ind
+63,Shahada,8.157433949,Aurangabad,Maharashtra,21.54797,74.475518,ind
+64,Rahata Shirdi,2.487782052,Aurangabad,Maharashtra,19.710861,74.483917,ind
+65,Sardarshahr,6.251074629,Jhunjhunu,Rajasthan,28.427825,74.503626,ind
+66,Malegaon,6.538004303,Aurangabad,Maharashtra,20.55617,74.50523,ind
+67,Daund,4.497846594,Aurangabad,Maharashtra,18.45031,74.58626,ind
+68,Gulabpura,9.406644077,Udaipur,Rajasthan,25.900272,74.654027,ind
+69,Gidderbaha,4.852279747,Bhatinda,Punjab,30.2074369,74.6576091,ind
+70,Nimbahera,11.78385547,Udaipur,Rajasthan,24.62578,74.68182,ind
+71,Vijapur,11.42665562,Aurangabad,Maharashtra,19.925417,74.731639,ind
+72,Dabwali,6.217956765,Hisar,Haryana,29.949319,74.737158,ind
+73,Nohar,2.56629924,Jhunjhunu,Rajasthan,29.19143615,74.7523426,ind
+74,Faridkot,8.502773482,Bhatinda,Punjab,30.676514,74.760327,ind
+75,Deopur,9.806396576,Aurangabad,Maharashtra,20.91239,74.76502,ind
+76,Pratapgarh,9.913725121,Udaipur,Rajasthan,24.042398,74.774155,ind
+77,Dhule,11.09307897,Aurangabad,Maharashtra,20.924031,74.780547,ind
+78,Petlawad,5.237508741,Indore 1,Madhya Pradesh,23.0120438,74.7874706,ind
+79,Patti,7.331926822,Amritsar,Punjab,31.24766023,74.78609087,ind
+80,Rupangarh,7.567979105,Kota,Rajasthan,26.7950659,74.8513085,ind
+81,Neemuch,7.877778047,Indore 1,Madhya Pradesh,24.4763852,74.8624092,ind
+82,Shirpur,9.446451297,Aurangabad,Maharashtra,21.354417,74.899361,ind
+83,Barwani,10.52369457,Khandwa,Madhya Pradesh,22.0363157,74.903339,ind
+84,Goniana,4.942852576,Bhatinda,Punjab,30.31993423,74.91491277,ind
+85,Tarn Taran-2,12.15772528,Amritsar,Punjab,31.44916929,74.92802191,ind
+86,Tarn Taran,11.86107922,Amritsar,Punjab,31.44624356,74.92685162,ind
+87,Nevasa,11.37599786,Aurangabad,Maharashtra,19.520577,74.955989,ind
+88,Fatehgarh Churiyan,9.614460815,Amritsar,Punjab,31.864326,74.95704791,ind
+89,Fatehpur(RJ),5.81765157,Jhunjhunu,Rajasthan,27.987772,74.962577,ind
+90,Zira,12.25146754,Bhatinda,Punjab,30.96746,74.981035,ind
+91,Chalisgaon,8.877530017,Aurangabad,Maharashtra,20.463678,74.992943,ind
+92,Sirsa,3.67501378,Hisar,Haryana,29.553706,75.026614,ind
+93,Jandiala,11.79504584,Amritsar,Punjab,31.56406655,75.04290732,ind
+94,Jandiala 2,5.639110615,Amritsar,Punjab,31.55883871,75.03070903,ind
+95,Taranagar,5.591879977,Jhunjhunu,Rajasthan,28.672212,75.03518,ind
+96,Ratlam,10.80537692,Indore 1,Madhya Pradesh,23.3341696,75.0376325,ind
+97,Mandsaur,11.01393641,Indore 1,Madhya Pradesh,24.076836,75.0692952,ind
+98,Manawar,3.888026285,Khandwa,Madhya Pradesh,22.241853,75.086483,ind
+99,Talwandi Sabo,3.853998497,Bhatinda,Punjab,29.98705213,75.08820175,ind
+100,Mandalgarh,7.825074345,Udaipur,Rajasthan,25.199824,75.092221,ind
+101,Sendhva,10.606273,Khandwa,Madhya Pradesh,21.6818986,75.0942651,ind
+102,Baghapurana,9.318071895,Bhatinda,Punjab,30.68920252,75.10187119,ind
+103,Jaora,5.551093853,Indore 1,Madhya Pradesh,23.62415,75.10485,ind
+104,Manasa,2.773038519,Indore 1,Madhya Pradesh,24.47801,75.13549,ind
+105,Kannad,5.732873643,Aurangabad,Maharashtra,20.26903,75.13667,ind
+106,Kekri,7.813121578,Kota,Rajasthan,25.98450377,75.1427223,ind
+107,Sikar,10.12400963,Jhunjhunu,Rajasthan,27.61209444,75.14600884,ind
+108,Bhadra,4.341989007,Jhunjhunu,Rajasthan,29.10139822,75.16536702,ind
+109,Sultanpur Lodhi,8.667645245,Amritsar,Punjab,31.216868,75.194919,ind
+110,Batala,11.1045992,Amritsar,Punjab,31.798583,75.218375,ind
+111,Rampura Phul,11.36603527,Bhatinda,Punjab,30.27111,75.23054,ind
+112,Rayya,2.875647014,Amritsar,Punjab,31.533643,75.255107,ind
+113,Rayya 2,3.788357633,Amritsar,Punjab,31.533643,75.255107,ind
+114,Chopda,10.95107116,Aurangabad,Maharashtra,21.243722,75.286083,ind
+115,Beas,2.665914871,Amritsar,Punjab,31.51081131,75.29873033,ind
+116,Pachora,8.68997701,Aurangabad,Maharashtra,20.661083,75.339472,ind
+117,Malpura,4.244302803,Kota,Rajasthan,26.3005677,75.3696614,ind
+118,Badnagar,4.170236995,Indore 1,Madhya Pradesh,23.0397,75.37222,ind
+119,Deoli,8.543303201,Kota,Rajasthan,25.754459,75.377614,ind
+120,Paithan,4.062282966,Aurangabad,Maharashtra,19.48075,75.381111,ind
+121,Jhunjhunu,2.800393997,Jhunjhunu,Rajasthan,28.100792,75.38161,ind
+122,Gurdaspur,6.358609562,Amritsar,Punjab,32.03050436,75.40436635,ind
+123,Nagda,3.368636856,Indore 1,Madhya Pradesh,23.44761499,75.43493532,ind
+124,Fatehabad,11.66425597,Hisar,Haryana,29.50546,75.45743,ind
+125,Dinanagar,2.946037027,Amritsar,Punjab,32.13263004,75.4630816,ind
+126,Hargobindpur,11.78890301,Amritsar,Punjab,31.691146,75.471353,ind
+127,Dhamnod,10.22695703,Khandwa,Madhya Pradesh,22.214336,75.473626,ind
+128,Mansa,9.824533159,Bhatinda,Punjab,29.87854005,75.47844019,ind
+129,Alote,5.007869791,Indore 1,Madhya Pradesh,23.762998,75.554738,ind
+130,Jalgaon,8.086472725,Aurangabad,Maharashtra,20.982722,75.5605,ind
+131,Khatu Shyam,2.58587988,Jhunjhunu,Rajasthan,27.366845,75.572604,ind
+132,Raikot,7.844379456,Bhatinda,Punjab,30.65443,75.592093,ind
+133,Siwani,11.15407666,Hisar,Haryana,28.9101731,75.6087256,ind
+134,Khargone,11.1781812,Khandwa,Madhya Pradesh,21.831855,75.617153,ind
+135,Bundi,11.00077911,Kota,Rajasthan,25.436659,75.630143,ind
+136,Shyamgarh,11.56339277,Indore 1,Madhya Pradesh,24.20038,75.6435,ind
+137,Sillod,8.696517518,Aurangabad,Maharashtra,20.31074,75.65421,ind
+138,Pathankot,9.468925368,Amritsar,Punjab,32.27873933,75.65812515,ind
+139,Dasuya,7.315540006,Amritsar,Punjab,31.812225,75.664676,ind
+140,Hisar,7.54752901,Hisar,Haryana,29.12194,75.69872,ind
+141,Badnapur,10.6063551,Aurangabad,Maharashtra,19.868405,75.725906,ind
+142,Surajgarh,4.322775373,Jhunjhunu,Rajasthan,28.303915,75.729283,ind
+143,Georai,10.17087541,Aurangabad,Maharashtra,19.264832,75.750974,ind
+144,Neem Ka Thana,6.715327628,Jhunjhunu,Rajasthan,27.73683202,75.76980658,ind
+145,Ambad,4.705472786,Aurangabad,Maharashtra,19.609165,75.793834,ind
+146,Leheragaga,6.789843011,Bhatinda,Punjab,29.943601,75.801084,ind
+147,Bhusawal,5.575149659,Nagpur,Maharashtra,21.04565,75.802728,ind
+148,Loharu,11.09483859,Hisar,Haryana,28.46746773,75.82195382,ind
+149,Sangrur,2.883431264,Bhatinda,Punjab,30.2432006,75.8358123,ind
+150,Bhawani Mandi,11.65012316,Kota,Rajasthan,24.41231,75.84342,ind
+151,Singhana,9.874132503,Jhunjhunu,Rajasthan,28.0926107,75.84864998,ind
+152,Tohana,11.8502569,Hisar,Haryana,29.71188,75.89198,ind
+153,Barwala,3.430736511,Hisar,Haryana,29.36728935,75.90016369,ind
+154,Hoshiarpur,11.15443957,Bhatinda,Punjab,31.517912,75.900792,ind
+155,Tirthpuri,6.092848387,Aurangabad,Maharashtra,19.43974498,75.92362891,ind
+156,Indri,8.484329421,Kalaburagi,Karnataka,17.1751648,75.9554927,ind
+157,Agar Malwa,2.782097437,Indore 1,Madhya Pradesh,23.71285,76.00073,ind
+158,Deulgaon Raja,3.130027879,Aurangabad,Maharashtra,20.01724433,76.03562679,ind
+159,Dewas,3.363729129,Indore 1,Madhya Pradesh,22.962793,76.050012,ind
+160,Payal,8.489568257,Bhatinda,Punjab,30.71461604,76.05817085,ind
+161,Sanawad,6.84609375,Khandwa,Madhya Pradesh,22.182459,76.064848,ind
+162,Narwana,3.942488239,Hisar,Haryana,29.592039,76.115226,ind
+163,Nawanshahr,4.937646526,Bhatinda,Punjab,31.131028,76.122472,ind
+164,Mahendragarh,3.328786951,Hisar,Haryana,28.27616,76.14126,ind
+165,Jhalawar,4.67090935,Kota,Rajasthan,24.590954,76.144495,ind
+166,Maksi,8.952875722,Indore 1,Madhya Pradesh,23.25459,76.1474,ind
+167,Narnaund,3.58569755,Hisar,Haryana,29.22713,76.14892,ind
+168,Bhiwani,7.3651932,Hisar,Haryana,28.79649,76.17077,ind
+169,Buldana,2.599838776,Nagpur,Maharashtra,20.5292147,76.1841701,ind
+170,Malkapur,5.537446276,Nagpur,Maharashtra,20.866215,76.204849,ind
+171,Burhanpur,3.107006767,Khandwa,Madhya Pradesh,21.3193875,76.2224273,ind
+172,Sindagi,9.327550893,Kalaburagi,Karnataka,16.9172558,76.2334278,ind
+173,Una,11.54662382,Bhatinda,Himachal Pradesh,31.469042,76.271246,ind
+174,Behror,9.124411266,Jhunjhunu,Rajasthan,27.88824,76.27995,ind
+175,Hatpipaliya,9.709222252,Indore 1,Madhya Pradesh,22.76731,76.30003,ind
+176,Khamano,10.36865569,Bhatinda,Punjab,30.817858,76.347762,ind
+177,Khandwa,6.897191711,Khandwa,Madhya Pradesh,21.841236,76.35385,ind
+178,Bansur,10.03418846,Jhunjhunu,Rajasthan,27.67774577,76.35701191,ind
+179,Shivpuram,5.251259914,Khandwa,Madhya Pradesh,21.81172,76.37067,ind
+180,Punasa,3.09794436,Khandwa,Madhya Pradesh,22.22896,76.3776,ind
+181,Itawa,10.07187862,Kota,Rajasthan,25.539141,76.378382,ind
+182,Sirhind,4.576337103,Bhatinda,Punjab,30.61980181,76.384069,ind
+183,Kaithal,6.801181294,Hisar,Haryana,29.81645319,76.43644053,ind
+184,Lakhan Majra,10.78139964,Hisar,Haryana,29.04450125,76.47587309,ind
+185,Sarangpur,12.02689322,Bhopal,Madhya Pradesh,23.57338,76.48588,ind
+186,Baran,8.027508702,Kota,Rajasthan,25.09651,76.49976,ind
+187,Rupnagar,5.33309493,Bhatinda,Punjab,30.96854,76.51867,ind
+188,Lingasugur,12.12743708,Kalaburagi,Karnataka,16.16216173,76.51869819,ind
+189,Hamirpur,8.188680108,Bhatinda,Himachal Pradesh,31.687007,76.522221,ind
+190,Gangavathi,6.124084405,Kalaburagi,Karnataka,15.43241911,76.53503933,ind
+191,Kantaphod,5.106842435,Bhopal,Madhya Pradesh,22.57314,76.55786,ind
+192,Khamgaon,4.690533276,Nagpur,Maharashtra,20.70889445,76.56302556,ind
+193,Khaknar,3.164447177,Khandwa,Madhya Pradesh,21.37901052,76.5662761,ind
+194,Aland,6.642776704,Kalaburagi,Karnataka,17.56852836,76.5694506,ind
+195,Aklera,11.12350645,Kota,Rajasthan,24.40806363,76.57761148,ind
+196,Gohana,6.882867125,Ambala,Haryana,29.03656636,76.60274516,ind
+197,Assandh,8.816861037,Ambala,Haryana,29.521511,76.61384,ind
+198,Rewari,9.049664035,Hisar,Haryana,28.19819249,76.61766786,ind
+199,Jhajjar,11.05382697,Hisar,Haryana,28.60693322,76.65523948,ind
+200,Harsud,4.331612309,Khandwa,Madhya Pradesh,21.972579,76.691259,ind
+201,Shujalpur,6.302497376,Bhopal,Madhya Pradesh,23.38007,76.71699,ind
+202,Ashta,3.918488508,Bhopal,Madhya Pradesh,23.009635,76.7220392,ind
+203,Pachore,6.991433765,Bhopal,Madhya Pradesh,23.713116,76.733,ind
+204,Kannod,8.207462514,Bhopal,Madhya Pradesh,22.667627,76.741811,ind
+205,Khalwa,6.813476468,Khandwa,Madhya Pradesh,21.804192,76.742248,ind
+206,Sindhanur,9.316632594,Kalaburagi,Karnataka,15.77081884,76.75626566,ind
+207,Surapura,3.900757494,Kalaburagi,Karnataka,16.5216887,76.7610518,ind
+208,Jewargi,10.08416354,Kalaburagi,Karnataka,17.00660051,76.77297311,ind
+209,Patuadi,8.483154985,Hisar,Haryana,28.3255049,76.778212,ind
+210,Risod,7.150242928,Nagpur,Maharashtra,19.977676,76.78457,ind
+211,Gulbarga Rural,6.609159251,Kalaburagi,Karnataka,17.329731,76.8342957,ind
+212,Chhabra,7.520938569,Kota,Rajasthan,24.65524505,76.84187627,ind
+213,Derabassi,9.202286678,Bhatinda,Punjab,30.5886835,76.8470955,ind
+214,Shahbad,11.47509142,Ambala,Haryana,30.15697,76.869283,ind
+215,Khirkiya,5.863699881,Khandwa,Madhya Pradesh,22.16129172,76.87335994,ind
+216,Siruguppa,11.15303696,Kalaburagi,Karnataka,15.63165297,76.89660029,ind
+217,Bellary Rural,6.644829585,Kalaburagi,Karnataka,15.14753013,76.89766755,ind
+218,Mandi,11.72510163,Bhatinda,Himachal Pradesh,31.709248,76.932582,ind
+219,Basavakalyan,3.188945276,Kalaburagi,Karnataka,17.86972585,76.957362,ind
+220,Gharaunda,2.644208217,Ambala,Haryana,29.539612,76.972858,ind
+221,Malegaon Jahangir,4.572998701,Nagpur,Maharashtra,20.239967,77.00648963,ind
+222,Samalkha,7.884308058,Ambala,Haryana,29.240209,77.013224,ind
+223,Akola,11.84279741,Nagpur,Maharashtra,20.7059345,77.0219019,ind
+224,Akot,6.212526487,Nagpur,Maharashtra,21.088,77.0604,ind
+225,Sehore,4.721270925,Bhopal,Madhya Pradesh,23.2032399,77.0844044,ind
+226,Harda,9.298543666,Khandwa,Madhya Pradesh,22.3492,77.099994,ind
+227,Washim,4.357765994,Nagpur,Maharashtra,20.111575,77.119145,ind
+228,Humnabad,5.63067174,Kalaburagi,Karnataka,17.758792,77.1278814,ind
+229,Narayangarh,8.648159553,Ambala,Haryana,30.4784788,77.1312586,ind
+230,Hingoli,5.005405122,Nagpur,Maharashtra,19.717641,77.149293,ind
+231,Bhalki,8.047322035,Kalaburagi,Karnataka,18.04049418,77.2204112,ind
+232,Nasrullaganj,3.547084254,Khandwa,Madhya Pradesh,22.684454,77.264819,ind
+233,Yamuna Nagar,5.442039764,Ambala,Haryana,30.12653268,77.271618,ind
+234,Sedam,12.14488391,Kalaburagi,Karnataka,17.1783909,77.2872658,ind
+235,Guna,6.786837464,Bhopal,Madhya Pradesh,24.63959337,77.30543885,ind
+236,Aurad,10.85745113,Kalaburagi,Karnataka,18.25032446,77.41764354,ind
+237,Chincholi,6.270480573,Kalaburagi,Karnataka,17.4610238,77.4192758,ind
+238,Berasia,3.350181548,Bhopal,Madhya Pradesh,23.628965,77.43175791,ind
+239,Seoni Malwa,7.807306641,Khandwa,Madhya Pradesh,22.4513671,77.4660335,ind
+240,Karanja Lad,3.6414265,Nagpur,Maharashtra,20.47383,77.481967,ind
+241,Mandideep,5.165166288,Bhopal,Madhya Pradesh,23.0963899,77.50719796,ind
+242,Paratwada,9.861373417,Nagpur,Maharashtra,21.307504,77.514602,ind
+243,Bidar Rural,10.03896713,Kalaburagi,Karnataka,17.9103939,77.5199079,ind
+244,Andippatti,9.829329649,Madurai,Tamil Nadu,10.0015161,77.6163803,ind
+245,Bhainsdehi,7.427350667,Chhindwara,Madhya Pradesh,21.64826,77.63389,ind
+246,Sri Villupattur,4.317396415,Madurai,Tamil Nadu,9.5121171,77.6340213,ind
+247,Shivpuri,4.951695739,Bhopal,Madhya Pradesh,25.42547881,77.66257398,ind
+248,Chicholi,8.515754349,Chhindwara,Madhya Pradesh,22.0091,77.66982,ind
+249,Sironj-2,3.059179635,Bhopal,Madhya Pradesh,24.09353877,77.69205588,ind
+250,Oddanchatram,5.374812806,Madurai,Tamil Nadu,10.4897472,77.7543611,ind
+251,Amravati,10.09746102,Nagpur,Maharashtra,20.905071,77.76971,ind
+252,Raisen,5.779491426,Bhopal,Madhya Pradesh,23.35008,77.77256,ind
+253,Roorkee,4.900181727,Ambala,Uttarakhand,29.88031166,77.86880619,ind
+254,Betul,8.954526441,Chhindwara,Madhya Pradesh,21.901998,77.892409,ind
+255,Shahpur,9.868255722,Chhindwara,Madhya Pradesh,22.187672,77.902672,ind
+256,Athner,3.19868075,Chhindwara,Madhya Pradesh,21.624835,77.922511,ind
+257,Vadipatti,8.854252893,Madurai,Tamil Nadu,10.0812324,77.9708247,ind
+258,Thirumangalam,11.9690371,Madurai,Tamil Nadu,9.825762779,77.99453086,ind
+259,Morshi,12.39877904,Nagpur,Maharashtra,21.323419,78.003733,ind
+260,Dehradun,9.225176268,Ambala,Uttarakhand,30.31442677,78.01575333,ind
+261,Mungawali,11.04307407,Bhopal,Madhya Pradesh,24.41268,78.0977,ind
+262,Aruppukottai,9.643257039,Madurai,Tamil Nadu,9.5139114,78.100168,ind
+263,Yavatmal,6.99944818,Nagpur,Maharashtra,20.3887937,78.1204073,ind
+264,Karera,5.115691738,Bhopal,Madhya Pradesh,25.45473581,78.1317401,ind
+265,Bijnor,6.518819525,Ambala,Uttar Pradesh,29.37260459,78.13479841,ind
+266,Haridwar,10.21594324,Ambala,Uttarakhand,29.9456906,78.1642478,ind
+267,Suhagpur,6.729014429,Bhopal,Madhya Pradesh,22.70722,78.21575,ind
+268,Arvi,5.919709976,Nagpur,Maharashtra,21.007848,78.220122,ind
+269,Bareli,3.827822532,Bhopal,Madhya Pradesh,23.000238,78.243611,ind
+270,Sendurai,5.806401161,Madurai,Tamil Nadu,10.41170308,78.25047648,ind
+271,Multai,8.56525426,Chhindwara,Madhya Pradesh,21.78035,78.25876,ind
+272,Rishikesh,6.232400339,Ambala,Uttarakhand,30.076622,78.264723,ind
+273,Dabra,5.100165786,Bhopal,Madhya Pradesh,25.89382983,78.32788692,ind
+274,Mellur,8.168471336,Madurai,Tamil Nadu,10.0312879,78.3382117,ind
+275,Najibabad,6.441179267,Ambala,Uttar Pradesh,29.61011335,78.34342001,ind
+276,Manapparai,5.925855858,Madurai,Tamil Nadu,10.610229,78.421183,ind
+277,Musiri,11.22360338,Madurai,Tamil Nadu,10.95732543,78.4428334,ind
+278,Silwani,3.04323634,Bhopal,Madhya Pradesh,23.304763,78.444231,ind
+279,Sayalgudi,4.088031892,Madurai,Tamil Nadu,9.1679025,78.445657,ind
+280,Datia,7.361348414,Bhopal,Madhya Pradesh,25.66915687,78.45710046,ind
+281,Manmadhurai,10.64837736,Madurai,Tamil Nadu,9.690319799,78.45745177,ind
+282,Dunawa,4.405337739,Chhindwara,Madhya Pradesh,21.86842,78.49486,ind
+283,Dhampur,7.018934288,Ambala,Uttar Pradesh,29.30825301,78.5029791,ind
+284,Udaipura,5.992843611,Bhopal,Madhya Pradesh,23.0774041,78.5121286,ind
+285,Ponnamaravathi,10.76670741,Madurai,Tamil Nadu,10.2798438,78.53985972,ind
+286,Katol,6.900821985,Nagpur,Maharashtra,21.278132,78.581373,ind
+287,Junnardeo,7.591649443,Chhindwara,Madhya Pradesh,22.19594,78.592989,ind
+288,Wardha,3.671796329,Nagpur,Maharashtra,20.75303,78.62645,ind
+289,Prithvipur,9.37429119,Jabalpur,Madhya Pradesh,25.2086335,78.7511708,ind
+290,Parasiya,11.5574712,Chhindwara,Madhya Pradesh,22.2014615,78.7571497,ind
+291,Devakottai,7.323991645,Madurai,Tamil Nadu,9.9451721,78.8165174,ind
+292,Tikamgarh,7.247730484,Jabalpur,Madhya Pradesh,24.75973,78.82821,ind
+293,Ramanathapuram,9.626480528,Madurai,Tamil Nadu,9.361765471,78.84600034,ind
+294,Chhindwara,9.423949541,Chhindwara,Madhya Pradesh,22.050369,78.92102,ind
+295,Saoner,5.805039196,Nagpur,Maharashtra,21.377707,78.935271,ind
+296,Kashipur,8.999974223,Ambala,Uttarakhand,29.21049479,78.95743756,ind
+297,Hingna,4.560523182,Nagpur,Maharashtra,21.073376,78.961341,ind
+298,Bonda,9.212675883,Bhopal,Madhya Pradesh,24.0365365,78.9670039,ind
+299,Aranthangi,3.511834494,Madurai,Tamil Nadu,10.17235083,79.00026728,ind
+300,Batkakhapa,3.592988018,Chhindwara,Madhya Pradesh,22.517037,79.034534,ind
+301,Bicchua,4.415602627,Chhindwara,Madhya Pradesh,21.815529,79.035436,ind
+302,Narsinghpur(MP),9.251750335,Chhindwara,Madhya Pradesh,22.955898,79.194709,ind
+303,Harai,7.112136974,Chhindwara,Madhya Pradesh,22.61337,79.2265,ind
+304,Chaurai,10.26747898,Chhindwara,Madhya Pradesh,22.053738,79.24996,ind
+305,Bada Malhera,12.02172386,Jabalpur,Madhya Pradesh,24.571904,79.30694,ind
+306,Umred,11.70725629,Nagpur,Maharashtra,20.844109,79.320226,ind
+307,Ramtek,6.840722608,Nagpur,Maharashtra,21.39326,79.32749,ind
+308,Chimur,11.36598192,Nagpur,Maharashtra,20.495797,79.371532,ind
+309,Rudrapur,10.62305396,Ambala,Uttarakhand,28.97651973,79.39589333,ind
+310,Gotegaon,8.784478804,Chhindwara,Madhya Pradesh,23.039826,79.484209,ind
+311,Adegaon,9.292237233,Chhindwara,Madhya Pradesh,22.61868,79.49071,ind
+312,Seoni,3.548262603,Chhindwara,Madhya Pradesh,22.102727,79.548797,ind
+313,Chhatarpur(MP),12.07253725,Jabalpur,Madhya Pradesh,24.891829,79.563508,ind
+314,Kudwah,9.411048474,Nagpur,Maharashtra,21.58005395,79.57696095,ind
+315,Hatta,11.04413201,Jabalpur,Madhya Pradesh,24.136209,79.604373,ind
+316,Bhandara,4.346150602,Nagpur,Maharashtra,21.17103,79.648518,ind
+317,Katangi,12.2244299,Chhindwara,Madhya Pradesh,21.767599,79.80093,ind
+318,Brahmapuri,4.085780261,Nagpur,Maharashtra,20.6077655,79.84197299,ind
+319,Majholi,4.181887898,Jabalpur,Madhya Pradesh,23.49971647,79.92658913,ind
+320,Ghansor,7.531690412,Chhindwara,Madhya Pradesh,22.659205,79.944313,ind
+321,Pannagar,10.45978612,Jabalpur,Madhya Pradesh,23.281842,79.989154,ind
+322,Sakoli,9.597595958,Nagpur,Maharashtra,21.085087,80.011253,ind
+323,Khairlanji,3.492614929,Chhindwara,Madhya Pradesh,21.614696,80.04204,ind
+324,Lalbarra,9.316396306,Chhindwara,Madhya Pradesh,21.948485,80.04561,ind
+325,Waraseoni,5.305023717,Chhindwara,Madhya Pradesh,21.769022,80.061718,ind
+326,Nainpur,4.269490147,Chhindwara,Madhya Pradesh,22.434678,80.115577,ind
+327,Pawai,2.820143084,Jabalpur,Madhya Pradesh,24.26382,80.16418,ind
+328,Panna,9.531111876,Jabalpur,Madhya Pradesh,24.712678,80.183022,ind
+329,Balaghat,5.309596364,Chhindwara,Madhya Pradesh,21.79892022,80.19057658,ind
+330,Gondia,7.90330564,Nagpur,Maharashtra,21.442478,80.206442,ind
+331,Nawegaon,9.867597853,Chhindwara,Madhya Pradesh,21.726564,80.274054,ind
+332,Paraswada,6.997401552,Chhindwara,Madhya Pradesh,22.17269485,80.2952327,ind
+333,Kundam,10.76007516,Jabalpur,Madhya Pradesh,23.219958,80.349731,ind
+334,Katni,5.61152325,Jabalpur,Madhya Pradesh,23.847001,80.37778,ind
+335,Amgaon,3.873391013,Nagpur,Maharashtra,21.36657,80.3813,ind
+336,Lanji,9.723893736,Chhindwara,Madhya Pradesh,21.501085,80.539759,ind
+337,Baihar,4.298397765,Chhindwara,Madhya Pradesh,22.09963727,80.55054932,ind
+338,Chandia,10.31744068,Jabalpur,Madhya Pradesh,23.64117836,80.70357899,ind
+339,Shahpura,12.36899626,Jabalpur,Madhya Pradesh,23.17923,80.7102,ind
+340,Mohla,7.487903354,Cg Bc,Chhattisgarh,20.58883846,80.74831023,ind
+341,Maihar,4.863640897,Jabalpur,Madhya Pradesh,24.25859,80.77687,ind
+342,Barhi(MP),10.1021634,Jabalpur,Madhya Pradesh,23.90609,80.80401,ind
+343,Umariya,4.857684364,Jabalpur,Madhya Pradesh,23.520031,80.830198,ind
+344,Satna,4.969483903,Jabalpur,Madhya Pradesh,24.6005075,80.8322428,ind
+345,Dongargaon,3.44871708,Cg Bc,Chhattisgarh,20.97312,80.85127,ind
+346,Khairagarh,11.51148181,Cg Bc,Chhattisgarh,21.426757,80.96991,ind
+347,Pali(MP),5.324354504,Jabalpur,Madhya Pradesh,23.3656,81.0443,ind
+348,Rajnandgaon,7.409130448,Cg Bc,Chhattisgarh,21.104714,81.059824,ind
+349,Bhanupratappur,9.753462619,Raipur,Chhattisgarh,20.30459,81.07561,ind
+350,Dindori,11.02938184,Jabalpur,Madhya Pradesh,22.95254,81.07581,ind
+351,Balod,3.412133411,Raipur,Chhattisgarh,20.733742,81.201789,ind
+352,Gunderdehi,8.147176911,Cg Bc,Chhattisgarh,20.940475,81.296111,ind
+353,Bhilai,8.602334149,Cg Bc,Chhattisgarh,21.233493,81.366646,ind
+354,Bhilai-2,2.668372845,Cg Bc,Chhattisgarh,21.235307,81.366952,ind
+355,Shahdol,5.667005206,Jabalpur,Madhya Pradesh,23.29348,81.374496,ind
+356,Beohari,7.079747361,Jabalpur,Madhya Pradesh,24.03537,81.3763,ind
+357,Jaisinghnagar,8.13641097,Jabalpur,Madhya Pradesh,23.68583,81.39098,ind
+358,Jaisinghnagar-2,9.912607352,Jabalpur,Madhya Pradesh,23.68583,81.39098,ind
+359,Kanker,4.338514556,Raipur,Chhattisgarh,20.27307,81.50052,ind
+360,Bemetara,11.38148708,Cg Bc,Chhattisgarh,21.710791,81.530166,ind
+361,Dhamtari,10.7103958,Raipur,Chhattisgarh,20.701694,81.531255,ind
+362,Burhar,6.606018131,Jabalpur,Madhya Pradesh,23.19985192,81.53868182,ind
+363,Patan,8.967326716,Cg Bc,Chhattisgarh,21.03890685,81.54929544,ind
+364,Keshkal,9.493569676,Raipur,Chhattisgarh,20.0930325,81.59487566,ind
+365,Majhauli,6.10193867,Jabalpur,Madhya Pradesh,24.11693,81.62894,ind
+366,Kondagaon,7.532028856,Raipur,Chhattisgarh,19.59527529,81.66905328,ind
+367,Lormi,3.524295667,Cg Bc,Chhattisgarh,22.27331,81.68676,ind
+368,Anuppur,5.916611712,Jabalpur,Madhya Pradesh,23.114013,81.699783,ind
+369,Mungeli,4.740571221,Cg Bc,Chhattisgarh,22.073165,81.700289,ind
+370,Mandir Hasaud,6.712397773,Cg Bc,Chhattisgarh,21.225725,81.714688,ind
+371,Jaitpur,6.987318474,Jabalpur,Madhya Pradesh,23.4722,81.72642,ind
+372,Kalimela,6.033636699,Jeypore,Odisha,18.07059,81.7526,ind
+373,Tilda,6.436424623,Cg Bc,Chhattisgarh,21.537473,81.8017,ind
+374,Sidhi,7.998192399,Jabalpur,Madhya Pradesh,24.40635,81.86643,ind
+375,Rajim,8.157433949,Cg Bc,Chhattisgarh,20.973431,81.869743,ind
+376,Pendra Road,2.487782052,Bilashpur,Chhattisgarh,22.75471,81.90234,ind
+377,Malkangiri,6.251074629,Jeypore,Odisha,18.35601976,81.93147155,ind
+378,Nagri,6.538004303,Raipur,Chhattisgarh,20.34940596,81.95195843,ind
+379,Jagdalpur,4.497846594,Jeypore,Odisha,19.076987,82.005179,ind
+380,Gariaband,9.406644077,Raipur,Chhattisgarh,20.630954,82.058386,ind
+381,Marwahi,4.852279747,Bilashpur,Chhattisgarh,23.008212,82.070261,ind
+382,Raighar,11.78385547,Jeypore,Odisha,19.883007,82.077825,ind
+383,Bilaspur,11.42665562,Bilashpur,Chhattisgarh,22.098634,82.10836,ind
+384,Chakarbhatha,6.217956765,Bilashpur,Chhattisgarh,22.007648,82.11013,ind
+385,Baloda Bazar,2.56629924,Cg Bc,Chhattisgarh,21.658597,82.150772,ind
+386,Ratanpur,8.502773482,Bilashpur,Chhattisgarh,22.29551,82.161983,ind
+387,Umerkote,9.806396576,Jeypore,Odisha,19.667166,82.20399,ind
+388,Manendragarh,9.913725121,Bilashpur,Chhattisgarh,23.21180868,82.21030283,ind
+389,Mathili,11.09307897,Jeypore,Odisha,18.5434515,82.2230125,ind
+390,Kotpad,5.237508741,Jeypore,Odisha,19.13753,82.312196,ind
+391,Pali(CG),7.331926822,Bilashpur,Chhattisgarh,22.37492,82.326582,ind
+392,Bagbahara,7.567979105,Raipur,Chhattisgarh,21.055794,82.374238,ind
+393,Boipariguda,7.877778047,Jeypore,Odisha,18.75351,82.42748,ind
+394,Pithoda,9.446451297,Raipur,Chhattisgarh,21.256571,82.519014,ind
+395,Papadahandi,10.52369457,Jeypore,Odisha,19.34321,82.52011,ind
+396,Nuapada,4.942852576,Bolangir,Odisha,20.7926,82.535324,ind
+397,Nabarangpur,12.15772528,Jeypore,Odisha,19.243103,82.54082,ind
+398,Dipka,11.86107922,Bilashpur,Chhattisgarh,22.348414,82.546449,ind
+399,Boriguma,11.37599786,Jeypore,Odisha,19.05168,82.546521,ind
+400,Jeypore,9.614460815,Jeypore,Odisha,18.859324,82.561426,ind
+401,Sheorinarayan,5.81765157,Bilashpur,Chhattisgarh,21.721907,82.60129,ind
+402,Sinapali,12.25146754,Bolangir,Odisha,20.0971288,82.640885,ind
+403,Champa,8.877530017,Bilashpur,Chhattisgarh,22.050984,82.654138,ind
+404,Komana,3.67501378,Bolangir,Odisha,20.5024552,82.6712969,ind
+405,Koraput,11.79504584,Jeypore,Odisha,18.80422,82.71387,ind
+406,Korba,5.639110615,Bilashpur,Chhattisgarh,22.35784,82.729388,ind
+407,Nandapur,5.591879977,Jeypore,Odisha,18.561713,82.736355,ind
+408,Raj Khariar,10.80537692,Bolangir,Odisha,20.302501,82.74706,ind
+409,Dharmagarh,11.01393641,Bolangir,Odisha,19.871875,82.776082,ind
+410,Jharbandh,3.888026285,Sambalpur,Odisha,21.05394351,82.79757274,ind
+411,Paikmal,3.853998497,Sambalpur,Odisha,20.919922,82.801767,ind
+412,Jaipatna,7.825074345,Bolangir,Odisha,19.474302,82.806496,ind
+413,Bansula,10.606273,Raipur,Chhattisgarh,21.26804,82.81989,ind
+414,Basna,9.318071895,Raipur,Chhattisgarh,21.280229,82.824174,ind
+415,Bhatgaon,5.551093853,Cg Bc,Chhattisgarh,21.649976,82.827059,ind
+416,Semiliguda,2.773038519,Jeypore,Odisha,18.708246,82.845237,ind
+417,Surajpur,5.732873643,Bilashpur,Chhattisgarh,23.200057,82.871092,ind
+418,Udaipur,7.813121578,Bilashpur,Chhattisgarh,22.94456,82.93229,ind
+419,Kantabhanji,10.12400963,Bolangir,Odisha,20.466013,82.932928,ind
+420,Junagarh,4.341989007,Bolangir,Odisha,19.861949,82.944484,ind
+421,Sakti,8.667645245,Bilashpur,Chhattisgarh,22.013991,82.957756,ind
+422,Saraipalli,11.1045992,Raipur,Chhattisgarh,21.310505,83.006352,ind
+423,Padampur,11.36603527,Sambalpur,Odisha,20.999792,83.07096,ind
+424,Sarangarh,2.875647014,Raipur,Chhattisgarh,21.600242,83.078995,ind
+425,Kharsia,3.788357633,Cg Bc,Chhattisgarh,21.992794,83.097631,ind
+426,Lakshmipur,10.95107116,Jeypore,Odisha,18.9931533,83.1153029,ind
+427,Patnagarh,2.665914871,Bolangir,Odisha,20.709035,83.131567,ind
+428,Titlagarh,8.68997701,Bolangir,Odisha,20.301559,83.152268,ind
+429,Ambikapur,4.244302803,Bilashpur,Chhattisgarh,23.114479,83.192682,ind
+430,Dharamjaigarh,4.170236995,Bilashpur,Chhattisgarh,22.46148,83.2041,ind
+431,Kesinga,8.543303201,Bolangir,Odisha,20.174649,83.221071,ind
+432,Sahjanwa,4.062282966,Gorakhpur,Uttar pradesh,26.76591476,83.22225059,ind
+433,Khajani,2.800393997,Gorakhpur,Uttar pradesh,26.65594074,83.2518869,ind
+434,Barmakela,6.358609562,Raipur,Chhattisgarh,21.56643,83.25935,ind
+435,Gaisilat,3.368636856,Sambalpur,Odisha,20.959864,83.31685,ind
+436,Saintala,11.66425597,Bolangir,Odisha,20.4391269,83.344206,ind
+437,Gharghoda,2.946037027,Raipur,Chhattisgarh,22.178095,83.345136,ind
+438,Narla,11.78890301,Bolangir,Odisha,20.0472706,83.3703722,ind
+439,Sohela,10.22695703,Sambalpur,Odisha,21.306826,83.387973,ind
+440,Agalpur,9.824533159,Bolangir,Odisha,21.01283686,83.40498196,ind
+441,Raigarh,5.007869791,Raipur,Chhattisgarh,21.880919,83.408181,ind
+442,Rayagada,8.086472725,Jeypore,Odisha,19.166387,83.416417,ind
+443,Pathalgaon,2.58587988,Bilashpur,Chhattisgarh,22.5641,83.459679,ind
+444,Bolangir,7.844379456,Bolangir,Odisha,20.702555,83.473283,ind
+445,Sitapur,11.15407666,Bilashpur,Chhattisgarh,22.78914,83.49528,ind
+446,Nagarutari,11.1781812,Tilaiya,Jharkhand,24.284499,83.497418,ind
+447,Chainpur,11.00077911,Patna,Bihar,25.033338,83.503218,ind
+448,Muniguda,11.56339277,Jeypore,Odisha,19.618854,83.504947,ind
+449,Bhatli,8.696517518,Sambalpur,Odisha,21.465369,83.534717,ind
+450,Pipraich,9.468925368,Gorakhpur,Uttar pradesh,26.82844845,83.53625731,ind
+451,Dunguripali,7.315540006,Bolangir,Odisha,21.0475445,83.5509886,ind
+452,Barpali,7.54752901,Sambalpur,Odisha,21.19793,83.588479,ind
+453,Panchagaon,10.6063551,Sambalpur,Odisha,21.78283,83.59565,ind
+454,Tarva,4.322775373,Bolangir,Odisha,20.7317002,83.6734049,ind
+455,Hemgiri,10.17087541,Sambalpur,Odisha,21.95320496,83.69795736,ind
+456,Tumudibandha,6.715327628,Bolangir,Odisha,19.96195041,83.70227839,ind
+457,Kantamal,4.705472786,Bolangir,Odisha,20.652218,83.74716,ind
+458,Bheden,6.789843011,Sambalpur,Odisha,21.191576,83.752198,ind
+459,Attabira,5.575149659,Sambalpur,Odisha,21.368845,83.782008,ind
+460,Garhwah,11.09483859,Tilaiya,Jharkhand,24.155795,83.800129,ind
+461,Kudra,2.883431264,Patna,Bihar,25.04233,83.80016,ind
+462,Binka,11.65012316,Bolangir,Odisha,21.00393,83.80348,ind
+463,Gunupur,9.874132503,Jeypore,Odisha,19.069938,83.817354,ind
+464,Belpahar,11.8502569,Sambalpur,Odisha,21.830462,83.85234,ind
+465,Muhammadganj,3.430736511,Tilaiya,Jharkhand,24.43305413,83.86722559,ind
+466,Burla,11.15443957,Sambalpur,Odisha,21.48611,83.88841,ind
+467,Sonepur,6.092848387,Bolangir,Odisha,20.836997,83.906517,ind
+468,Baliguda,8.484329421,Bolangir,Odisha,20.1988922,83.9135452,ind
+469,Kunkuri,2.782097437,Bilashpur,Chhattisgarh,22.732637,83.951574,ind
+470,Sambalpur,3.130027879,Sambalpur,Odisha,21.44943,84.008578,ind
+471,Jharsuguda,3.363729129,Sambalpur,Odisha,21.838671,84.012539,ind
+472,Sasaram,8.489568257,Patna,Bihar,24.9538803,84.0142866,ind
+473,Sundargarh,6.84609375,Sambalpur,Odisha,22.112084,84.041764,ind
+474,Birmaharajpur,3.942488239,Bolangir,Odisha,20.865759,84.056683,ind
+475,Daltonganj,4.937646526,Tilaiya,Jharkhand,24.042992,84.088072,ind
+476,Paralakhemundi,3.328786951,Jeypore,Odisha,18.77948,84.088857,ind
+477,Bagaha,4.67090935,Motihari,Bihar,27.09937761,84.09112802,ind
+478,Dehri,8.952875722,Patna,Bihar,24.91480451,84.15936684,ind
+479,Chhatarpur,3.58569755,Tilaiya,Jharkhand,24.3744768,84.19188143,ind
+480,Phulbani,7.3651932,Bolangir,Odisha,20.47987,84.23233,ind
+481,Tikkaballi,2.599838776,Bolangir,Odisha,20.17308093,84.27824223,ind
+482,Bikramganj,5.537446276,Patna,Bihar,25.19802592,84.28137877,ind
+483,Chandragiri,3.107006767,Jeypore,Odisha,19.30131,84.28208,ind
+484,Bamara,9.327550893,Sambalpur,Odisha,22.04896,84.29289,ind
+485,Hathwa,11.54662382,Motihari,Bihar,26.360563,84.297145,ind
+486,Boudh,9.124411266,Bolangir,Odisha,20.847262,84.305072,ind
+487,Redhakhol,9.709222252,Sambalpur,Odisha,21.0741608,84.3410586,ind
+488,Paduma,10.36865569,Tilaiya,Jharkhand,24.14564473,84.34669895,ind
+489,Kuchinda,6.897191711,Sambalpur,Odisha,21.747412,84.358655,ind
+490,Aurangabad,10.03418846,Patna,Bihar,24.7420179,84.35920112,ind
+491,Daudnagar,5.251259914,Patna,Bihar,25.029604,84.419469,ind
+492,Jagdishpur,3.09794436,Patna,Bihar,25.468313,84.4225186,ind
+493,Purunakatak,10.07187862,Bolangir,Odisha,20.633002,84.423647,ind
+494,Sorada,4.576337103,Ganjam,Odisha,19.757242,84.43025,ind
+495,Sorada 2,6.801181294,Ganjam,Odisha,19.7573786,84.4340015,ind
+496,Narkatiaganj,10.78139964,Motihari,Bihar,27.105644,84.464135,ind
+497,Panki,12.02689322,Tilaiya,Jharkhand,24.03783457,84.47727588,ind
+498,Athamalik,8.027508702,Khurda,Odisha,20.70694,84.51648,ind
+499,Betiah,5.33309493,Motihari,Bihar,26.8028048,84.5169757,ind
+500,Kishorenagar,12.12743708,Khurda,Odisha,20.98470847,84.53757404,ind
+501,Gumla,8.188680108,Ranchi,Jharkhand,23.0441295,84.5379455,ind
+502,Naktideula,6.124084405,Sambalpur,Odisha,21.252357,84.550093,ind
+503,Digapahandi,5.106842435,Ganjam,Odisha,19.3781538,84.567202,ind
+504,Madanpur,4.690533276,Patna,Bihar,24.6553003,84.5772433,ind
+505,Bhanjanagar,3.164447177,Ganjam,Odisha,19.934477,84.584738,ind
+506,Jagannath Vihar,6.642776704,Ganjam,Odisha,19.933057,84.587867,ind
+507,Raniganj,11.12350645,Patna,Bihar,24.439039,84.590826,ind
+508,Chikiti,6.882867125,Ganjam,Odisha,19.200969,84.598974,ind
+509,Sheragada,8.816861037,Ganjam,Odisha,19.51381,84.60264,ind
+510,Indanpur,9.049664035,Ganjam,Odisha,19.7579344,84.61866468,ind
+511,Basantpur,11.05382697,Motihari,Bihar,26.17316126,84.66501984,ind
+512,Arrah,4.331612309,Patna,Bihar,25.55831492,84.66687498,ind
+513,Aska,6.302497376,Ganjam,Odisha,19.611062,84.668424,ind
+514,Areraj,3.918488508,Motihari,Bihar,26.545897,84.673019,ind
+515,Mohammadpur,6.991433765,Motihari,Bihar,26.35154515,84.69974593,ind
+516,Deogarh,8.207462514,Sambalpur,Odisha,21.532156,84.718674,ind
+517,Chandwa,6.813476468,Tilaiya,Jharkhand,23.677974,84.738836,ind
+518,Hinjilicut,9.316632594,Ganjam,Odisha,19.487034,84.741676,ind
+519,Boinda,3.900757494,Khurda,Odisha,20.920817,84.753611,ind
+520,Jagannath Prasad,10.08416354,Ganjam,Odisha,19.973079,84.779092,ind
+521,Sherghati,8.483154985,Patna,Bihar,24.5568829,84.78777236,ind
+522,Buguda,7.150242928,Ganjam,Odisha,19.819177,84.791777,ind
+523,Guraru,6.609159251,Patna,Bihar,24.811043,84.792008,ind
+524,Panposh,7.520938569,Sambalpur,Odisha,22.224143,84.811373,ind
+525,Kotwa,9.202286678,Motihari,Bihar,26.51649865,84.84142347,ind
+526,Daspalla,11.47509142,Ganjam,Odisha,20.324685,84.852832,ind
+527,Raxaul,5.863699881,Motihari,Bihar,26.98382,84.85494,ind
+528,Garkha,11.15303696,Motihari,Bihar,25.831773,84.861541,ind
+529,Kesariya,6.644829585,Motihari,Bihar,26.35297595,84.871069,ind
+530,Chatra,11.72510163,Tilaiya,Jharkhand,24.20666,84.872274,ind
+531,Chhendipada,3.188945276,Khurda,Odisha,21.085133,84.8750338,ind
+532,Motihari,2.644208217,Motihari,Bihar,26.65998252,84.92103804,ind
+533,Simariya,4.572998701,Tilaiya,Jharkhand,24.051282,84.932624,ind
+534,Lahunipara,7.884308058,Sambalpur,Odisha,21.8836283,84.9375287,ind
+535,Kodala,11.84279741,Ganjam,Odisha,19.62784,84.940133,ind
+536,Motihari-2,6.212526487,Motihari,Bihar,26.636128,84.952104,ind
+537,Naubatpur,4.721270925,Patna,Bihar,25.478948,84.957807,ind
+538,Bonai,9.298543666,Sambalpur,Odisha,21.81899,84.958623,ind
+539,Odagaon,4.357765994,Ganjam,Odisha,20.022614,84.973384,ind
+540,Chhatrapur,5.63067174,Ganjam,Odisha,19.358027,84.986489,ind
+541,Jehanabad,8.648159553,Patna,Bihar,25.20475784,84.98678716,ind
+542,Deoriya,5.005405122,Motihari,Bihar,26.175638,85.010529,ind
+543,Barkot,8.047322035,Sambalpur,Odisha,21.541244,85.010637,ind
+544,Rengali,3.547084254,Sambalpur,Odisha,21.2713405,85.0173224,ind
+545,Manpur,5.442039764,Patna,Bihar,24.80627,85.027259,ind
+546,Gania,12.14488391,Ganjam,Odisha,20.3977,85.04127,ind
+547,Chakia,6.786837464,Motihari,Bihar,26.41443106,85.04288771,ind
+548,Bantala,10.85745113,Khurda,Odisha,20.74827683,85.06675409,ind
+549,Narsinghpur,6.270480573,Khurda,Odisha,20.461481,85.074252,ind
+550,Kaniha,3.350181548,Khurda,Odisha,21.078537,85.076496,ind
+551,Khalikote,7.807306641,Ganjam,Odisha,19.61405097,85.0895251,ind
+552,Angul,3.6414265,Khurda,Odisha,20.857203,85.089857,ind
+553,Nayagarh,5.165166288,Ganjam,Odisha,20.113859,85.094964,ind
+554,Nayagarh_Urban,9.861373417,Ganjam,Odisha,20.113859,85.094964,ind
+555,Ghorasahan,10.03896713,Motihari,Bihar,26.820557,85.125815,ind
+556,Madhuban,9.829329649,Motihari,Bihar,26.43850542,85.13510096,ind
+557,Kanke,7.427350667,Ranchi,Jharkhand,23.55729792,85.1415,ind
+558,Saraiya,4.317396415,Motihari,Bihar,26.03434185,85.14584029,ind
+559,Khamar,4.951695739,Khurda,Odisha,21.2650029,85.180336,ind
+560,Pallahara,8.515754349,Khurda,Odisha,21.4363,85.189643,ind
+561,Kantillo,3.059179635,Ganjam,Odisha,20.360831,85.191103,ind
+562,Islampur,5.374812806,Patna,Bihar,25.15073763,85.20404016,ind
+563,Balugaon,10.09746102,Khurda,Odisha,19.748832,85.206925,ind
+564,Gambharimunda,5.779491426,Khurda,Odisha,19.84594425,85.20866416,ind
+565,Barkagaon,4.900181727,Ranchi,Jharkhand,23.8543428,85.216601,ind
+566,Fatehpur(Bh),8.954526441,Patna,Bihar,24.61589612,85.21829203,ind
+567,Itkhori,9.868255722,Tilaiya,Jharkhand,24.35959,85.22397,ind
+568,Talcher,3.19868075,Khurda,Odisha,20.947892,85.23634,ind
+569,Krushnaprasad,8.854252893,Khurda,Odisha,19.637325,85.263795,ind
+570,Khunti,11.9690371,Ranchi,Jharkhand,23.0797595,85.2774207,ind
+571,Hilsa,12.39877904,Patna,Bihar,25.3188918,85.2832333,ind
+572,Nachuni,9.225176268,Khurda,Odisha,19.839168,85.295736,ind
+573,Fatuah,11.04307407,Patna,Bihar,25.50994671,85.30023858,ind
+574,Banarpal,9.643257039,Khurda,Odisha,20.803533,85.306744,ind
+575,Parjanga,6.99944818,Khurda,Odisha,20.920966,85.315336,ind
+576,Minapur,5.115691738,Motihari,Bihar,26.26676459,85.32974577,ind
+577,Goraul,6.518819525,Motihari,Bihar,25.93567223,85.33163051,ind
+578,Sunakhala,10.21594324,Khurda,Odisha,20.177181,85.332114,ind
+579,Bidupur,6.729014429,Samastipur,Bihar,25.645474,85.3342,ind
+580,Khajuriakata,5.919709976,Khurda,Odisha,20.715268,85.3357765,ind
+581,Badamba,3.827822532,Khurda,Odisha,20.4198294,85.34065787,ind
+582,Barhi(jh),5.806401161,Tilaiya,Jharkhand,24.33743,85.36525,ind
+583,Mahua,8.56525426,Samastipur,Bihar,25.80420111,85.39098731,ind
+584,Tangi,6.232400339,Khurda,Odisha,19.930018,85.398595,ind
+585,Chandapur,5.100165786,Ganjam,Odisha,19.93337844,85.40128308,ind
+586,Muzzaffarpur,8.168471336,Motihari,Bihar,26.11864584,85.40244909,ind
+587,Riga,6.441179267,Motihari,Bihar,26.65857954,85.43212608,ind
+588,Joda,5.925855858,Bhadrak,Odisha,22.031526,85.43245,ind
+589,Begunia,11.22360338,Khurda,Odisha,20.202371,85.447245,ind
+590,Sitamarhi,3.04323634,Motihari,Bihar,26.590305,85.49838,ind
+591,Bihar Sharif,4.088031892,Patna,Bihar,25.19365388,85.51189965,ind
+592,Ramgarh,7.361348414,Ranchi,Jharkhand,23.614385,85.515536,ind
+593,Tilaiya,10.64837736,Tilaiya,Jharkhand,24.4242,85.51894,ind
+594,Banki,4.405337739,Khurda,Odisha,20.376754,85.527427,ind
+595,Nirakarpur,7.018934288,Khurda,Odisha,19.988847,85.530419,ind
+596,Patepur,5.992843611,Samastipur,Bihar,25.827325,85.531286,ind
+597,Kamakhyanagar,10.76670741,Khurda,Odisha,20.9228602,85.5560635,ind
+598,Sakra,6.900821985,Samastipur,Bihar,25.972543,85.56462,ind
+599,Dhenkanal,7.591649443,Khurda,Odisha,20.630745,85.594261,ind
+600,Shah Patori,3.671796329,Samastipur,Bihar,25.63112,85.5946004,ind
+601,Keonjhar,9.37429119,Bhadrak,Odisha,21.651115,85.607611,ind
+602,Khurda-1,11.5574712,Khurda,Odisha,20.175442,85.619669,ind
+603,Khurda-2,7.323991645,Khurda,Odisha,20.175442,85.619669,ind
+604,Athagarh,7.247730484,Khurda,Odisha,20.517744,85.632293,ind
+605,Champua,9.626480528,Bhadrak,Odisha,22.055139,85.660923,ind
+606,Pupri,9.423949541,Motihari,Bihar,26.47260548,85.6839459,ind
+607,Dumchanch,5.805039196,Tilaiya,Jharkhand,24.46965,85.69973,ind
+608,Barh,8.999974223,Patna,Bihar,25.477974,85.709592,ind
+609,Samastipur,4.560523182,Samastipur,Bihar,25.86199,85.769452,ind
+610,Banaso,9.212675883,Tilaiya,Jharkhand,23.981978,85.77992,ind
+611,Chaibasa,3.511834494,Bhadrak,Odisha,22.547325,85.806302,ind
+612,Bhuban,3.592988018,Khurda,Odisha,20.889997,85.835738,ind
+613,Barang,4.415602627,Khurda,Odisha,20.435755,85.837886,ind
+614,Dalsinghsarai,9.251750335,Samastipur,Bihar,25.67371,85.838,ind
+615,Sheikhpura,7.112136974,Patna,Bihar,25.141826,85.862059,ind
+616,Balipatna,10.26747898,Khurda,Odisha,20.209294,85.869035,ind
+617,Phulnakhara,12.02172386,Khurda,Odisha,20.365348,85.890352,ind
+618,Suriya,11.70725629,Tilaiya,Jharkhand,24.181325,85.891031,ind
+619,Ghatgaon,6.840722608,Bhadrak,Odisha,21.397579,85.899047,ind
+620,Leheriyasarai,11.36598192,Samastipur,Bihar,26.11992,85.904823,ind
+621,Benipatti,10.62305396,Samastipur,Bihar,26.447035,85.907831,ind
+622,Gawan,8.784478804,Talaiya,Jharkhand,24.61821455,85.91565929,ind
+623,Choudwar,9.292237233,Khurda,Odisha,20.448418,85.921395,ind
+624,Karanjia,3.548262603,Bhadrak,Odisha,21.775661,85.964233,ind
+625,Barauni,12.07253725,Samastipur,Bihar,25.47098,85.98058,ind
+626,Rajdhanwar,9.411048474,Tilaiya,Jharkhand,24.41378,85.98137,ind
+627,Duburi,11.04413201,Khurda,Odisha,20.99476915,85.98589619,ind
+628,Deogaon,4.346150602,Bhadrak,Odisha,21.1785,86.005747,ind
+629,Nimapara,12.2244299,Khurda,Odisha,20.0536724,86.0070547,ind
+630,Petarwar,4.085780261,Ranchi,Jharkhand,23.669022,86.019717,ind
+631,Rosera,4.181887898,Samastipur,Bihar,25.74747635,86.03417443,ind
+632,Beheri,7.531690412,Samastipur,Bihar,25.950233,86.05041249,ind
+633,Madhubani,10.45978612,Samastipur,Bihar,26.35319,86.08318,ind
+634,Lakhisarai,9.597595958,Bhagalpur,Bihar,25.17207404,86.09329127,ind
+635,Salepur,3.492614929,Khurda,Odisha,20.479062,86.09836,ind
+636,Anandapur,9.316396306,Bhadrak,Odisha,21.18778,86.117497,ind
+637,Manjhaul,5.305023717,Samastipur,Bihar,25.56732,86.12042,ind
+638,Chandikhole,4.269490147,Khurda,Odisha,20.701523,86.136153,ind
+639,Jajpur Road,2.820143084,Khurda,Odisha,20.940485,86.136559,ind
+640,Jainagar,9.531111876,Samastipur,Bihar,26.5883988,86.1370148,ind
+641,Benipur,5.309596364,Samastipur,Bihar,26.05909784,86.14659902,ind
+642,Hata,7.90330564,Ranchi,Jharkhand,22.620328,86.158749,ind
+643,Rairangpur,9.867597853,Bhadrak,Odisha,22.247827,86.165754,ind
+644,Raghunathpur,6.997401552,Khurda,Odisha,20.361891,86.167458,ind
+645,Nischintakoili,10.76007516,Khurda,Odisha,20.4791011,86.1847117,ind
+646,Chas,5.61152325,Ranchi,Jharkhand,23.632598,86.186792,ind
+647,Kuakhia,3.873391013,Khurda,Odisha,20.82120798,86.19893434,ind
+648,Hasanpur,9.723893736,Samastipur,Bihar,25.74723574,86.20290162,ind
+649,Jamui,4.298397765,Bhagalpur,Bihar,24.92134,86.225465,ind
+650,Bakhri,10.31744068,Samastipur,Bihar,25.59824,86.260718,ind
+651,Chatro,12.36899626,Tilaiya,Jharkhand,24.47061966,86.27022747,ind
+652,Jhanjharpur,7.487903354,Samastipur,Bihar,26.270518,86.297715,ind
+653,Giridih,4.863640897,Tilaiya,Jharkhand,24.19305,86.299408,ind
+654,Jajpur Town,10.1021634,Khurda,Odisha,20.848252,86.32383,ind
+655,Balia,4.857684364,Samastipur,Bihar,25.399288,86.355412,ind
+656,Bhandaripokhari,4.969483903,Bhadrak,Odisha,20.962767,86.3655534,ind
+657,Jhajha,3.44871708,Bhagalpur,Bihar,24.7744999,86.3756867,ind
+658,Binjharpur,11.51148181,Khurda,Odisha,20.73822132,86.40149941,ind
+659,Dhanbad,5.324354504,Ranchi,Jharkhand,23.816546,86.448353,ind
+660,Khaira,7.409130448,Bhadrak,Odisha,21.285094,86.458486,ind
+661,Khagaria,9.753462619,Samastipur,Bihar,25.50596,86.46853,ind
+662,Singhpur,11.02938184,Khurda,Odisha,20.69918281,86.472161,ind
+663,Bhadrak,3.412133411,Bhadrak,Odisha,21.045968,86.48962,ind
+664,Bonth,8.147176911,Bhadrak,Odisha,21.045968,86.48962,ind
+665,Phulparash,8.602334149,Samastipur,Bihar,26.359031,86.5005691,ind
+666,Mangalpur,2.668372845,Khurda,Odisha,20.814657,86.507859,ind
+667,Charampa,5.667005206,Bhadrak,Odisha,21.08986486,86.51767728,ind
+668,Balichandrapur,7.079747361,Khurda,Odisha,20.51798175,86.3749723,ind
+669,Bariyahi,8.13641097,Bhagalpur,Bihar,25.86506187,86.53909204,ind
+670,Dhusuri,9.912607352,Bhadrak,Odisha,20.89435621,86.54515245,ind
+671,Simri Bakhtiarpur,4.338514556,Bhagalpur,Bihar,25.7208289,86.5930592,ind
+672,Supaul,11.38148708,Bhagalpur,Bihar,26.11510755,86.59716359,ind
+673,Gogri,10.7103958,Samastipur,Bihar,25.424503,86.614416,ind
+674,Tihidi,6.606018131,Bhadrak,Odisha,20.985068,86.640193,ind
+675,Bombey Chhack,8.967326716,Bhadrak,Odisha,22.177129,86.647546,ind
+676,Tarapur,9.493569676,Bhagalpur,Bihar,25.09582,86.663477,ind
+677,Betada,6.10193867,Bhadrak,Odisha,21.16098086,86.68319106,ind
+678,Soro,7.532028856,Bhadrak,Odisha,21.301555,86.692144,ind
+679,Pirahat,3.524295667,Bhadrak,Odisha,20.95048774,86.70889603,ind
+680,Soro Urban,5.916611712,Bhadrak,Odisha,21.27235194,86.70944951,ind
+681,Baharagora,4.740571221,Bhadrak,Odisha,22.27426,86.71926,ind
+682,Katoria,6.712397773,Bhagalpur,Bihar,24.7454069,86.7227753,ind
+683,Basudevpur,6.987318474,Bhadrak,Odisha,21.126566,86.735111,ind
+684,Chandbali,6.033636699,Bhadrak,Odisha,20.777516,86.743625,ind
+685,Sultanganj,6.436424623,Bhagalpur,Bihar,25.25653079,86.75227753,ind
+686,Baripada,7.998192399,Bhadrak,Odisha,21.939454,86.764612,ind
+687,Chirkunda,8.157433949,Tilaiya,Jharkhand,23.74862,86.78766,ind
+688,Madhepura,2.487782052,Bhagalpur,Bihar,25.93226296,86.79389235,ind
+689,Gopalpur,6.251074629,Bhadrak,Odisha,21.32406074,86.82378384,ind
+690,Simrahi Bazar,6.538004303,Bhagalpur,Bihar,26.310746,86.846001,ind
+691,Triveniganj,4.497846594,Bhagalpur,Bihar,26.129334,86.890207,ind
+692,Amarpur,9.406644077,Bhagalpur,Bihar,25.0396898,86.9035511,ind
+693,Baisinga,4.852279747,Bhadrak,Odisha,21.6487217,86.9056166,ind
+694,Karanjamal,11.78385547,Bhadrak,Odisha,20.89019,86.91381,ind
+695,Banka,11.42665562,Bhagalpur,Bihar,24.88998319,86.92987274,ind
+696,Uda Kishanganj,6.217956765,Bhagalpur,Bihar,25.6843055,86.947388,ind
+697,Chausa Bazar,2.56629924,Bhagalpur,Bihar,25.53056363,87.03411872,ind
+698,Dhoraya,8.502773482,Bhagalpur,Bihar,24.959442,87.042102,ind
+699,Rasgovindpur,9.806396576,Bhadrak,Odisha,21.7859456,87.0499353,ind
+700,Agarpada,9.913725121,Bhadrak,Odisha,21.21220458,86.38664352,ind
+701,Dhamdaha,11.09307897,Bhagalpur,Bihar,25.74195445,87.18024612,ind
+702,Bamankhi,5.237508741,Bhagalpur,Bihar,25.894162,87.185825,ind
+703,Jaleswar,7.331926822,Bhadrak,Odisha,21.79198,87.2084,ind
+704,Raniganj(Bhagalpur),7.567979105,Bhagalpur,Bihar,26.083285,87.234085,ind
+705,Kahalgaon,7.877778047,Bhagalpur,Bihar,25.263165,87.23741,ind
+706,Kursela,9.446451297,Bhagalpur,Bihar,25.451491,87.250138,ind
+707,Forbesganj,10.52369457,Bhagalpur,Bihar,26.30691359,87.25913913,ind
+708,Forbesganj-2,4.942852576,Bhagalpur,Bihar,26.2986049,87.268613,ind
+709,Baliapal,12.15772528,Bhadrak,Odisha,21.65543316,87.28375969,ind
+710,Durgapur,11.86107922,Siliguri,West Bengal,23.54525996,87.30412669,ind
+711,Belda,11.37599786,Medinipur,West Bengal,22.07287206,87.33302574,ind
+712,Chandrakona Road,9.614460815,Medinipur,West Bengal,22.734428,87.339549,ind
+713,Gerabari,5.81765157,Bhagalpur,Bihar,25.6174367,87.3897554,ind
+714,Suri,12.25146754,Siliguri,West Bengal,23.905685,87.52344,ind
+715,Purnia,8.877530017,Bhagalpur,Bihar,25.80292,87.52398,ind
+716,Egra,3.67501378,Medinipur,West Bengal,21.900372,87.53664,ind
+717,Budbud,11.79504584,Siliguri,West Bengal,23.403287,87.549036,ind
+718,Katihar,5.639110615,Bhagalpur,Bihar,25.53054931,87.57779106,ind
+719,Sabang,5.591879977,Medinipur,West Bengal,22.18299283,87.59725862,ind
+720,Daspur,10.80537692,Medinipur,West Bengal,22.60586607,87.72040132,ind
+721,Sonaili,11.01393641,Bhagalpur,Bihar,25.588726,87.729131,ind
+722,Pansukura,3.888026285,Medinipur,West Bengal,22.382743,87.742346,ind
+723,Contai,3.853998497,Medinipur,West Bengal,21.781621,87.744455,ind
+724,Barharwa,7.825074345,Tilaiya,Jharkhand,24.85688741,87.774491,ind
+725,Rampurahat,10.606273,Siliguri,West Bengal,24.181716,87.781148,ind
+726,Rajmahal,9.318071895,Tilaiya,Jharkhand,25.05521248,87.83029727,ind
+727,Chandipur,5.551093853,Medinipur,West Bengal,22.102178,87.856819,ind
+728,Mecheda,2.773038519,Medinipur,West Bengal,22.42103464,87.86961351,ind
+729,Bardhaman,5.732873643,Siliguri,West Bengal,23.23699,87.88544,ind
+730,Kandi,7.813121578,Siliguri,West Bengal,23.95976727,88.03939101,ind
+731,Chaitanyapur,10.12400963,Siliguri,West Bengal,22.13718535,88.08195988,ind
+732,Dainhat,4.341989007,Siliguri,West Bengal,23.607651,88.16853104,ind
+733,Mirik,8.667645245,Siliguri,West Bengal,26.88573698,88.18217288,ind
+734,Kurseong,11.1045992,Siliguri,West Bengal,26.882719,88.27918,ind
+735,Bagdogra,11.36603527,Siliguri,West Bengal,26.698669,88.343942,ind
+736,Pakuahat,2.875647014,Siliguri,West Bengal,25.125581,88.3675,ind
+737,Gangarampur,3.788357633,Siliguri,West Bengal,25.4036006,88.45238605,ind
+738,Kalimpong,10.95107116,Siliguri,West Bengal,27.06069,88.468592,ind
+739,Belakoba,2.665914871,Siliguri,West Bengal,26.585518,88.593108,ind
+740,Patiram,8.68997701,Siliguri,West Bengal,25.33596,88.7625,ind
+741,Chalsa,4.244302803,Siliguri,West Bengal,26.87997,88.80435,ind
+742,Maynaguri,4.170236995,Siliguri,West Bengal,26.567962,88.8158,ind
+743,Falakata,8.543303201,Siliguri,West Bengal,26.503252,89.212384,ind
+744,Hasimara,4.062282966,Siliguri,West Bengal,26.73128,89.364752,ind
+745,Dinhata,2.800393997,Siliguri,West Bengal,26.129123,89.468751,ind
+746,Alipurduar,6.358609562,Siliguri,West Bengal,26.50057644,89.53062634,ind
+747,Kamakhaguri,3.368636856,Siliguri,West Bengal,26.466385,89.722455,ind
+748,Bongaigaon,11.66425597,Guwahati,Assam,26.499962,90.546725,ind
+749,Howly,2.946037027,Guwahati,Assam,26.42242223,90.97998378,ind
+750,Pathsala,11.78890301,Guwahati,Assam,26.505958,91.188472,ind
+751,Boko,10.22695703,Guwahati,Assam,25.978715,91.234857,ind
+752,Bishalgarh,9.824533159,Tripura,Tripura,23.672389,91.283151,ind
+753,Agartala,5.007869791,Tripura,Tripura,23.83146,91.28678,ind
+754,Jirania,8.086472725,Tripura,Tripura,23.81625365,91.43607193,ind
+755,Nalbari,2.58587988,Guwahati,Assam,26.434778,91.437924,ind
+756,Udaipur (TR),7.844379456,Tripura,Tripura,23.53794033,91.48027929,ind
+757,Bijoynagar,11.15407666,Guwahati,Assam,26.09676462,91.52023496,ind
+758,Shantirbazar,11.1781812,Tripura,Tripura,23.310628,91.565538,ind
+759,Tamulpur,11.00077911,Guwahati,Assam,26.64347,91.575652,ind
+760,Khowai,11.56339277,Tripura,Tripura,24.07148351,91.60492663,ind
+761,Manu Bazar,8.696517518,Tripura,Tripura,23.074525,91.64507,ind
+762,Amarpur(Tripura),9.468925368,Tripura,Tripura,23.52442,91.66043,ind
+763,Baihata Chariali,7.315540006,Guwahati,Assam,26.351265,91.71627,ind
+764,Goreswar,7.54752901,Guwahati,Assam,26.532952,91.729071,ind
+765,Ambassa,10.6063551,Tripura,Tripura,23.92326,91.85436,ind
+766,Shillong,4.322775373,Guwahati,Assam,25.56532903,91.90262081,ind
+767,Mangaldoi,10.17087541,Guwahati,Assam,26.43937,92.03707,ind
+768,Kumarghat,6.715327628,Tripura,Tripura,24.16215,92.03945,ind
+769,Dharmanagar,4.705472786,Tripura,Tripura,24.378614,92.155507,ind
+770,Jagiroad,6.789843011,Guwahati,Assam,26.117687,92.199914,ind
+771,Dalgaon,5.575149659,Guwahati,Assam,26.5621698,92.2002003,ind
+772,Nabheti,11.09483859,Guwahati,Assam,26.25195,92.329273,ind
+773,Morigaon,2.883431264,Guwahati,Assam,26.25355858,92.35239527,ind
+774,Dhekiajuli,11.65012316,Guwahati,Assam,26.700612,92.472679,ind
+775,Kampur,9.874132503,Guwahati,Assam,26.164037,92.6625,ind
+776,Mission Chariali,11.8502569,Guwahati,Assam,26.657796,92.772973,ind
+777,Lanka,3.430736511,Guwahati,Assam,25.928366,92.948756,ind
+778,Biswanath,11.15443957,Guwahati,Assam,26.6717807,93.1666708,ind
+779,Bokakhat,6.092848387,Dibrugarh,Assam,26.6429627,93.5913563,ind
+780,Gohpur,8.484329421,Guwahati,Assam,26.89172,93.65029,ind
+781,Narayanpur,2.782097437,Guwahati,Assam,26.95516094,93.84881261,ind
+782,Laluk,3.130027879,Guwahati,Assam,27.124648,93.930316,ind
+783,Golaghat,3.363729129,Dibrugarh,Assam,26.5238515,93.962337,ind
+784,Dergaon,8.489568257,Dibrugarh,Assam,26.697129,93.984709,ind
+785,Merapani,6.84609375,Dibrugarh,Assam,26.37593,94.05818,ind
+786,North Lakhimpur,3.942488239,Dibrugarh,Assam,27.2253189,94.1053307,ind
+787,Titabor,4.937646526,Dibrugarh,Assam,26.585333,94.183008,ind
+788,Jorhat,3.328786951,Dibrugarh,Assam,26.7465203,94.2025859,ind
+789,Gogamukh,4.67090935,Dibrugarh,Assam,27.434533,94.313037,ind
+790,Dhakuakhana,8.952875722,Dibrugarh,Assam,27.311458,94.457134,ind
+791,Amguri,3.58569755,Dibrugarh,Assam,26.81011,94.525712,ind
+792,Dhemaji,7.3651932,Dibrugarh,Assam,27.47100626,94.55822765,ind
+793,Sivsagar,2.599838776,Dibrugarh,Assam,26.986212,94.639776,ind
+794,Barbaruah,5.537446276,Dibrugarh,Assam,27.401946,94.880958,ind
+795,Moranhat,3.107006767,Dibrugarh,Assam,27.18420578,94.90830319,ind
+796,Dibrugarh,9.327550893,Dibrugarh,Assam,27.46038861,94.91100016,ind
+797,Sonari,11.54662382,Dibrugarh,Assam,27.02644519,95.01805437,ind
+798,Rajgarh,9.124411266,Dibrugarh,Assam,27.1791657,95.10958127,ind
+799,Dhuliajan,9.709222252,Dibrugarh,Assam,27.361282,95.307693,ind
+800,Naharkatia,10.36865569,Dibrugarh,Assam,27.290446,95.31133,ind
+801,Tinsukia,6.897191711,Dibrugarh,Assam,27.500983,95.36371,ind
+802,Doomdooma,10.03418846,Dibrugarh,Assam,27.568947,95.565847,ind
+803,Margherita,5.251259914,Dibrugarh,Assam,27.29865,95.65845,ind
+804,Ramganj Mandi,3.09794436,Kota,Rajasthan,24.65031693,75.94308444,ind
+805,Kamtaul,10.07187862,Samastipur,Bihar,26.33223934,85.82053899,ind
+806,Khutauna,4.576337103,Samastipur,Bihar,26.4993452,86.3992858,ind
+807,Patti 2,6.801181294,Amritsar,Punjab,31.289234,74.848576,ind
+808,Pharendra,10.78139964,Gorakhpur,Uttar Pradesh,27.10008906,83.26990323,ind
+809,Siswa Bazar,12.02689322,Gorakhpur,Uttar Pradesh,27.14995978,83.75896451,ind
+810,Kaptanganj,8.027508702,Gorakhpur,Uttar Pradesh,26.92705899,83.71313159,ind
+811,Gauri Bazar,5.33309493,Gorakhpur,Uttar Pradesh,26.59701909,83.6706246,ind
+812,Barhaj,12.12743708,Gorakhpur,Uttar Pradesh,26.28891662,83.72580307,ind
+813,Bhatpur Rani,8.188680108,Gorakhpur,Uttar Pradesh,26.31114213,84.03317183,ind
+814,Pathardewa,6.124084405,Gorakhpur,Uttar Pradesh,26.57982802,83.91712873,ind
+815,Kalugumalai,5.106842435,Madurai,Tamil Nadu,9.149238786,77.70178787,ind
+816,Bhilwara,4.690533276,Udaipur,Rajasthan,25.34511558,74.63550839,ind
+817,Harchowal,3.164447177,Amritsar,Punjab,31.78570518,75.4576057,ind
+818,Nagaur,6.642776704,Kota,Rajasthan,27.19926716,73.73823992,ind
+819,Fatehgarh Churiyan 2,11.12350645,Amritsar,Punjab,31.8927057,74.9670057,ind
+820,Mahagama,6.882867125,Tileiya,Jharkhand,25.02542553,87.31916795,ind
+821,Godda,8.816861037,Tileiya,Jharkhand,24.82596802,87.21478149,ind
+822,Kuchaikote,9.049664035,Motihari,Bihar,26.55838842,84.33204764,ind
+823,Partur,11.05382697,Aurangabad,Maharashtra,19.586273,76.213403,ind
+824,Kayathar,4.331612309,Madurai,Tamil Nadu,8.947528846,77.77306899,ind
+825,Majorganj,6.302497376,Motihari,Bihar,26.74974508,85.42739262,ind
+826,Ajitwal,3.918488508,Bhatinda,Punjab,30.80775935,75.33546597,ind
+827,Chinnamanur,6.991433765,Madurai,Tamil Nadu,9.838695265,77.38688126,ind
+828,Bamhani,8.207462514,Chhindwara,Madhya Pradesh,22.48682128,80.35863819,ind
+829,Mandla,6.813476468,Chhindwara,Madhya Pradesh,22.59851855,80.3672578,ind
+830,Arniwala,9.316632594,Bhatinda,Punjab,30.34992475,74.24948851,ind
+831,Jhabua,3.900757494,Indore 2,Madhya Pradesh,22.75116874,74.58557395,ind
+832,Mawana,10.08416354,Ambala,Uttar Pradesh,29.1033871,77.91671263,ind
+833,Keolari,8.483154985,Chhindwara,Madhya Pradesh,22.37743481,79.91285543,ind
+834,Sironj,7.150242928,Bhopal,Madhya Pradesh,24.10145,77.69875,ind
+835,Chhapara,6.609159251,Chhindwara,Madhya Pradesh,22.3986363,79.54036089,ind
+836,Bhinder,7.520938569,Udaipur,Rajasthan,24.50269,74.187498,ind
+837,Raichur,9.202286678,Kalaburagi,Karnataka,16.216768,77.358362,ind
+838,Yadgir,11.47509142,Kalaburagi,Karnataka,16.760001,77.138099,ind
+839,Batala 2,5.863699881,Amritsar,Punjab,31.80754501,75.24177581,ind
+840,Dhariwal,11.15303696,Amritsar,Punjab,31.95849784,75.32329714,ind
+841,Rajmarg,6.644829585,Chhindwara,Madhya Pradesh,23.12201587,79.02941989,ind
+842,Gudgaon,11.72510163,Chhindwara,Madhya Pradesh,21.60312264,77.71072593,ind
+843,Tenkasi,3.188945276,Madurai,Tamil Nadu,8.985156647,77.29338665,ind
+844,Hansdiha,2.644208217,Tileiya,Jharkhand,,,ind
+845,Pandhana,4.572998701,Khandwa,Madhya Pradesh,26.000283,84.68868,ind
+846,Double Chowki,7.884308058,Indore 2,Madhya Pradesh,21.3193875,76.2224273,ind
+847,Talikoti,11.84279741,Kalaburagi,Karnataka,,,ind
+848,Samariya,6.212526487,Kota,Rajasthan,,,ind
+849,Sawai Madhopur,4.721270925,Kota,Rajasthan,,,ind
+850,Nainwa,9.298543666,Kota,Rajasthan,,,ind
+851,Damua,4.357765994,Chhindwara,Madhya Pradesh,,,ind
+852,Muddebihal,5.63067174,,Karnataka,,,ind
+853,Tamukhi Raj,8.648159553,Gorakhpur,Uttar Pradesh,,,ind
+854,Betma,5.005405122,Khandwa,Madhya Pradesh,,,ind
+855,Ahore,8.047322035,,Rajasthan,,,ind
+856,Garh Mukteshwar,3.547084254,Ambala,Uttar Pradesh,,,ind
+857,Siyana,5.442039764,,Uttar Pradesh,,,ind
+858,Ramnagar,12.14488391,Motihari,Bihar,,,ind
+859,Baniyapur,6.786837464,Motihari,Bihar,,,ind
+860,Dobhi,10.85745113,Patna,Bihar,,,ind
+861,Masaurhi,6.270480573,Patna,Bihar,,,ind
+862,Goh,3.350181548,Patna,Bihar,,,ind
+863,Joya,7.807306641,Western UP,Uttar pradesh,28.8349931,78.47035289,ind
+864,Sikandra,3.6414265,,Bihar,,,ind
+865,Sahibganj,5.165166288,Telaiya,Jharkhand,,,ind
+866,Lalganj,9.861373417,Motihari,Bihar,,,ind
+867,Chakai,10.03896713,,Bihar,,,ind
+868,Bounsi,9.829329649,Bhagalpur,Bihar,,,ind
+869,Sugauli,7.427350667,,Bihar,,,ind
+870,Ratia,4.317396415,Hisar,Haryana,,,ind
+871,Motipur,4.951695739,Motihari,Bihar,,,ind
+872,Maksudangarh,8.515754349,Bhopal,Madhya Pradesh,,,ind
+873,Jirapur,3.059179635,,Madhya Pradesh,,,ind
+874,Rameswaram,5.374812806,Madurai,Tamilnadu,,,ind
+875,Puliyangudi,10.09746102,Madurai,Tamilnadu,,,ind
+876,Nazareth,5.779491426,Madurai,Tamil Nadu,,,ind
+877,Subdega,4.900181727,Sambalpur,Odisha,,,ind
+878,Biaora,8.954526441,Bhopal,Madhya Pradesh,,,ind
+879,Jalalabad,9.868255722,Bhatinda,Punjab,30.60077342,74.25088414,ind
+880,Pathalgaon,3.19868075,Bilashpur,Chhattisgarh,22.5641,83.459679,ind
+881,Agarpada,8.854252893,Bhadrak,Odisha,21.60468235,87.1285878,ind
+882,Nautanwa,11.9690371,Gorakhpur,Uttar Pradesh,27.42909955,83.43159105,ind
+883,Ramdas,12.39877904,Bhatinda,Punjab,31.96488689,74.91150944,ind
+884,Madathukulam,9.225176268,Madurai,Tamil Nadu,,,ind
+885,Kanchanpur,11.04307407,Tripura,Tripura,,,ind
+886,Seondha,9.643257039,Bhopal,Madhya Pradesh,,,ind
+887,Bhanegaon,6.99944818,Chhindwara,Madhya Pradesh,,,ind
+888,Jhalod,5.115691738,Ahmedabad,Gujarat,,,ind
+889,Narpatganj,6.518819525,Bhagalpur,Bihar,,,ind
+890,Saharghat,10.21594324,Samastipur,Bihar,,,ind
+891,Rajnagar,6.729014429,Samastipur,Bihar,,,ind
+892,Barhalganj,5.919709976,Gorakhapur,,,,ind
+893,Padrauna,3.827822532,Gorakhpur,,,,ind
