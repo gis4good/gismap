@@ -30,7 +30,7 @@ def app():
               f"""
               <style>
               .stApp {{
-                  background: url("https://www.nordea.com/sites/default/files/styles/hero_big/public/2021-05/Helsinki%20Headquarters%20Interior.jpg?itok=nXMKisWD");
+                  background: url("http://bizrak.com/images/bgs/bg.jpg");
                   background-size: cover
               }}
               </style>
