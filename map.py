@@ -75,7 +75,8 @@ if check_password():
     PAGES = {
     "Main Page": main,
     "MSME Branches": msme,
-    "Branch Portfolio Analysis":demo    
+    "Branch Portfolio Analysis":demo,
+    "OM Maps":om    
     }
     st.sidebar.title('Navigation')
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
