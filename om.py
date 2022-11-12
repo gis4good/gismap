@@ -30,7 +30,7 @@ def app():
               f"""
               <style>
               .stApp {{
-                  background: url("http://bizrak.com/images/bgs/bg.jpg");
+                  background: url("https://wallpaper.dog/large/20361140.jpg");
                   background-size: cover
               }}
               </style>
