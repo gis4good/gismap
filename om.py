@@ -41,7 +41,7 @@ def app():
     st.header('')
     st.write("""
     # OPerational Map
-    Image depecting villages covered by Branches. 
+    Showcases the exact villages along with village code and boundaries for operations of the branch.  
     """)
     import pandas as pd  
     df = pd.read_csv("om_maps_pincodes.csv")
