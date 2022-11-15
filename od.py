@@ -48,7 +48,7 @@ def app():
       
     """)
     import pandas as pd  
-    df = pd.read_csv(r"C:\Users\THIS-LAPPY\Desktop\gis\sharable_link_for_mail\od_maps_shareable_links.csv")
+    df = pd.read_csv("od_maps_shareable_links.csv")
     image_list = df.iloc[:, 1].unique().tolist()
     item_list = df.iloc[:, 0].unique().tolist()
     images = dict(zip(item_list, image_list))
