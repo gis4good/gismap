@@ -76,7 +76,6 @@ if check_password():
     "Main Page": main,
     "MSME Branches": msme,
     "Branch Split":demo,
-    "Poly":poly,
     "OM Maps":om,
     "BPM Maps":bpm,
     "BPM SHeets":bpm_sheets,
