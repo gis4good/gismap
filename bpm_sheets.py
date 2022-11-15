@@ -45,7 +45,7 @@ def app():
      * Has the client coverage percentage along with number of households in each village
     """)
     import pandas as pd  
-    df = pd.read_csv(r"C:\Users\THIS-LAPPY\Desktop\gis\sharable_link_for_mail\bpm_excel_shareable_links.csv")
+    df = pd.read_csv("bpm_excel_shareable_links.csv")
     image_list = df.iloc[:, 1].unique().tolist()
     item_list = df.iloc[:, 0].unique().tolist()
     images = dict(zip(item_list, image_list))
