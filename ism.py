@@ -56,7 +56,7 @@ def app():
     * PAR (Portfolio at Risk)   
     """)
     import pandas as pd  
-    df = pd.read_csv(r"C:\Users\THIS-LAPPY\Desktop\gis\sharable_link_for_mail\ism_sharable_link.csv")
+    df = pd.read_csv("ism_sharable_link.csv")
     image_list = df.iloc[:, 1].unique().tolist()
     item_list = df.iloc[:, 0].unique().tolist()
     images = dict(zip(item_list, image_list))
