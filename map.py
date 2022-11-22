@@ -80,8 +80,7 @@ if check_password():
     "BPM Maps":bpm,
     "BPM SHeets":bpm_sheets,
     "ISM Maps":ism,
-    "OD Maps":od,
-    "Equifax Processor":equifax    
+    "OD Maps":od
     }
     st.sidebar.title('Navigation')
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
