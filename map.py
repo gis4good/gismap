@@ -5,7 +5,7 @@ Created on Tue Jun 28 10:37:34 2022
 @author: THIS-LAPPY
 """
 
-import streamlit as st,msme,main,demo,om,ism,bpm,od,bpm_sheets
+import streamlit as st,msme,main,demo,om,ism,bpm,od,bpm_sheets,equifax
 import streamlit.components.v1 as components
 
 # >>> import plotly.express as px
@@ -80,7 +80,8 @@ if check_password():
     "BPM Maps":bpm,
     "BPM SHeets":bpm_sheets,
     "ISM Maps":ism,
-    "OD Maps":od
+    "OD Maps":od,
+    "Equifax Processor":equifax    
     }
     st.sidebar.title('Navigation')
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
