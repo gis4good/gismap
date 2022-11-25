@@ -166,6 +166,26 @@ def app():
                except:
                     st.write('Something gone wrong with Industry Scenario Processing')
                     
+                    
+               try:
+                   
+                   ipd=pd.DataFrame({'State':pwp['State'],'District':pwp['District'],'Pincode':pwp['Pincode'],
+                                     'p1_a':pwp['No. of Loans'],'p2_a':pwp['No. of Loans.1'],'p3_a':pwp['No. of Loans.2'],'p4_a':pwp['No. of Loans.3'],'p5_a':pwp['No. of Loans.4'],
+                                     'p1_d':pwp['Disbursed Amount'],'p2_d':pwp['Disbursed Amount.1'],'p3_d':pwp['Disbursed Amount.2'],'p4_d':pwp['Disbursed Amount.3'],'p5_d':pwp['Disbursed Amount.4']
+                       
+                       })
+                   
+                   to_delete = ['pwp','nae','isr','cwp','cws','cwd','pwd','pws']
+                   st.download_button(label='Industry Peer Disbursement',data=ipd.to_csv(index=False),file_name='industry_peer_disbursement.csv')
+                   for _var in to_delete:
+                       if _var in locals() or _var in globals():
+                           exec(f'del {_var}')
+                   gc.collect()     
+                   gif_runner.empty()
+                   
+               except:
+                    st.write('Something gone wrong with Industry Peer Disbursement Processing')     
+                    
                # oo=gpd.read_file(r"C:\Users\THIS-LAPPY\Dropbox\shp file\India Shapefile\India.shp")
               
                # st.download_button(
