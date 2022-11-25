@@ -6,7 +6,7 @@ Created on Sat Nov 19 12:26:18 2022
 """
 import streamlit as st,numpy as np
 import streamlit.components.v1 as components
-import requests,io,pandas as pd
+import requests,io,pandas as pd,gc
 
 def app():
     
@@ -56,10 +56,32 @@ def app():
         kk= "".join([ s[0] for s in file.name.split()]).lower()
         if kk[0:3]=='cwp':
             cwp=gg
+            cwp=cwp[0:len(cwp)-1]
+            cwp['Pincode']=cwp['Pincode'].astype(int)
+            cl=['Active Loans.1','180+ Delinquency Accounts.1']
+            cwp[cl]=cwp[cl].astype(str)
+            for i in range(len(cl)):
+                cwp[cl[i]]=cwp[cl[i]].apply(lambda x:x.replace(',','')).astype('int64')
+            
+            
         if kk[0:3]=='cws':
             cws=gg
+            cws=cws[0:len(cws)-1]
+            cws['Pincode']=cws['Pincode'].astype(int)
+            cl=[ 'No. of Loans.1', 'Disbursed Amount.1', 'Average Ticket Size.1']
+            cws[cl]=cws[cl].astype(str)
+            for i in range(len(cl)):
+                cws[cl[i]]=cws[cl[i]].apply(lambda x:x.replace(',','')).astype('int64')
+            
         if kk[0:3]=='cwd':
             cwd=gg
+            cwd=cwd[0:len(cws)-1]
+            cwd['Pincode']=cwd['Pincode'].astype(int)
+            cl=['O/S Balance.1','1+ Delinquency Balance.1','30+ Delinquency Balance.1','30+ Delinquency Accounts.1','180+ Delinquency Balance.1','WOF Delinquency Balance.1']
+            cwd[cl]=cwd[cl].astype(str)
+            for i in range(len(cl)):
+                cwd[cl[i]]=cwd[cl[i]].apply(lambda x:x.replace(',','')).astype('int64')
+            
         if kk[0:3]=='pwd':
             pwd=gg
             pwd=pwd[0:len(pwd)-1]
@@ -97,23 +119,59 @@ def app():
             pass
             st.write('Your File is ready to Download')
             if len(cwp)>1:
-               pwp=pwp.merge(pws[['Pincode','Average Ticket Size','Average Ticket Size.1','Average Ticket Size.2','Average Ticket Size.3','Average Ticket Size.4','No. of Loans','No. of Loans.1','No. of Loans.2','No. of Loans.3','No. of Loans.4','Disbursed Amount','Disbursed Amount.1','Disbursed Amount.2','Disbursed Amount.3','Disbursed Amount.4']],on='Pincode', how='left').fillna(0)  
-               pwp=pwp.merge(pwd[['Pincode','1+ Delinquency Balance','1+ Delinquency Balance.1','1+ Delinquency Balance.2','1+ Delinquency Balance.3','1+ Delinquency Balance.4',
-                   '30+ Delinquency Balance','30+ Delinquency Balance.1','30+ Delinquency Balance.2','30+ Delinquency Balance.3','30+ Delinquency Balance.4',
-                   '180+ Delinquency Balance','180+ Delinquency Balance.1','180+ Delinquency Balance.2','180+ Delinquency Balance.3','180+ Delinquency Balance.4']],on='Pincode', how='left').fillna(0)
+               try: 
+                   pwp=pwp.merge(pws[['Pincode','Average Ticket Size','Average Ticket Size.1','Average Ticket Size.2','Average Ticket Size.3','Average Ticket Size.4','No. of Loans','No. of Loans.1','No. of Loans.2','No. of Loans.3','No. of Loans.4','Disbursed Amount','Disbursed Amount.1','Disbursed Amount.2','Disbursed Amount.3','Disbursed Amount.4']],on='Pincode', how='left').fillna(0)  
+                   pwp=pwp.merge(pwd[['Pincode','1+ Delinquency Balance','1+ Delinquency Balance.1','1+ Delinquency Balance.2','1+ Delinquency Balance.3','1+ Delinquency Balance.4',
+                       '30+ Delinquency Balance','30+ Delinquency Balance.1','30+ Delinquency Balance.2','30+ Delinquency Balance.3','30+ Delinquency Balance.4',
+                       '180+ Delinquency Balance','180+ Delinquency Balance.1','180+ Delinquency Balance.2','180+ Delinquency Balance.3','180+ Delinquency Balance.4']],on='Pincode', how='left').fillna(0)
+                   
+                   nae=pd.DataFrame({'State':pwp['State'],'District':pwp['District'],'Pincode':pwp['Pincode'],
+                                    'p1_p':pwp['O/S Balance'],'p2_p':pwp['O/S Balance.1'],'p3_p':pwp['O/S Balance.2'],'p4_p':pwp['O/S Balance.3'],'p5_p':pwp['O/S Balance.4'],
+                                    'p1_t':pwp['Average Ticket Size'],'p2_d':pwp['Average Ticket Size.1'],'p3_d':pwp['Average Ticket Size.2'],'p4_d':pwp['Average Ticket Size.3'],'p5_d':pwp['Average Ticket Size.4'],
+                                    'p1_d':pwp['No. of Loans'],'p2_t':pwp['No. of Loans.1'],'p3_t':pwp['No. of Loans.2'],'p4_t':pwp['No. of Loans.3'],'p5_t':pwp['No. of Loans.4'],
+                                    'p1_do%':(pwp['Disbursed Amount'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_do%':(pwp['Disbursed Amount.1'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_do%':(pwp['Disbursed Amount.2'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_do%':(pwp['Disbursed Amount.3'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_do%':(pwp['Disbursed Amount.4'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100,
+                                    'p1_1%':(pwp['1+ Delinquency Balance'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_1%':(pwp['1+ Delinquency Balance.1'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_1%':(pwp['1+ Delinquency Balance.2'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_1%':(pwp['1+ Delinquency Balance.3'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_1%':(pwp['1+ Delinquency Balance.4'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100,
+                                    'p1_3%':(pwp['30+ Delinquency Balance'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_3%':(pwp['30+ Delinquency Balance.1'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_3%':(pwp['30+ Delinquency Balance.2'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_3%':(pwp['30+ Delinquency Balance.3'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_3%':(pwp['30+ Delinquency Balance.4'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100,
+                                    'p1_8%':(pwp['180+ Delinquency Balance_y'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_8%':(pwp['180+ Delinquency Balance.1_y'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_8%':(pwp['180+ Delinquency Balance.2_y'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_8%':(pwp['180+ Delinquency Balance.3_y'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_8%':(pwp['180+ Delinquency Balance.4_y'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100
+                                    }).fillna(0).replace([np.inf, -np.inf], 0)
+                    
+                   pp=['p1_do%', 'p2_do%', 'p3_do%', 'p4_do%', 'p5_do%', 'p1_1%',
+                   'p2_1%', 'p3_1%', 'p4_1%', 'p5_1%', 'p1_3%', 'p2_3%', 'p3_3%', 'p4_3%',
+                   'p5_3%', 'p1_8%', 'p2_8%', 'p3_8%', 'p4_8%', 'p5_8%']
+                   
+                   nae[pp]=np.where(nae[pp]>100,100,nae[pp])
+                   st.download_button(label='Download New_Area_Expansion',data=nae.to_csv(index=False),file_name='New_Area_Expansion.csv')   
+               except:
+                    st.write('Something gone wrong with New_Area_Expansion Processing') 
                
-               nae=pd.DataFrame({'State':pwp['State'],'District':pwp['District'],'Pincode':pwp['Pincode'],
-                                'p1_p':pwp['O/S Balance'],'p2_p':pwp['O/S Balance.1'],'p3_p':pwp['O/S Balance.2'],'p4_p':pwp['O/S Balance.3'],'p5_p':pwp['O/S Balance.4'],
-                                'p1_t':pwp['Average Ticket Size'],'p2_d':pwp['Average Ticket Size.1'],'p3_d':pwp['Average Ticket Size.2'],'p4_d':pwp['Average Ticket Size.3'],'p5_d':pwp['Average Ticket Size.4'],
-                                'p1_d':pwp['No. of Loans'],'p2_t':pwp['No. of Loans.1'],'p3_t':pwp['No. of Loans.2'],'p4_t':pwp['No. of Loans.3'],'p5_t':pwp['No. of Loans.4'],
-                                'p1_do%':(pwp['Disbursed Amount'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_do%':(pwp['Disbursed Amount.1'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_do%':(pwp['Disbursed Amount.2'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_do%':(pwp['Disbursed Amount.3'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_do%':(pwp['Disbursed Amount.4'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100,
-                                'p1_1%':(pwp['1+ Delinquency Balance'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_1%':(pwp['1+ Delinquency Balance.1'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_1%':(pwp['1+ Delinquency Balance.2'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_1%':(pwp['1+ Delinquency Balance.3'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_1%':(pwp['1+ Delinquency Balance.4'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100,
-                                'p1_3%':(pwp['30+ Delinquency Balance'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_3%':(pwp['30+ Delinquency Balance.1'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_3%':(pwp['30+ Delinquency Balance.2'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_3%':(pwp['30+ Delinquency Balance.3'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_3%':(pwp['30+ Delinquency Balance.4'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100,
-                                'p1_8%':(pwp['180+ Delinquency Balance_y'].div(pwp['O/S Balance'].where(pwp['O/S Balance'] != 0,0)))*100,'p2_8%':(pwp['180+ Delinquency Balance.1_y'].div(pwp['O/S Balance.1'].where(pwp['O/S Balance.1'] != 0,0)))*100,'p3_8%':(pwp['180+ Delinquency Balance.2_y'].div(pwp['O/S Balance.2'].where(pwp['O/S Balance.2'] != 0,0)))*100,'p4_8%':(pwp['180+ Delinquency Balance.3_y'].div(pwp['O/S Balance.3'].where(pwp['O/S Balance.3'] != 0,0)))*100,'p5_8%':(pwp['180+ Delinquency Balance.4_y'].div(pwp['O/S Balance.4'].where(pwp['O/S Balance.4'] != 0,0)))*100
-                                }).fillna(0)
+            if len(cwp)>1:    
+                try:
+                    cwp=cwp.merge(cws[['Pincode','No. of Loans.1','Disbursed Amount.1','Average Ticket Size.1']],on='Pincode', how='left').fillna(0)
+                    cwp=cwp.merge(cwd[['Pincode','O/S Balance.1','1+ Delinquency Balance.1','30+ Delinquency Balance.1','30+ Delinquency Accounts.1','180+ Delinquency Balance.1','WOF Delinquency Balance.1']],on='Pincode', how='left').fillna(0)
+                    
+                    pos=cwp['O/S Balance.1_y']+cwp['180+ Delinquency Balance.1_y']
+                    isr=pd.DataFrame({'Pincode':cwp['Pincode'],'gro_n_accs ':cwp['No. of Loans.1'],'gro_30_p_v':cwp['30+ Delinquency Balance.1'].div(cwp['O/S Balance.1_y'].where(cwp['O/S Balance.1_y']!=0,0)),'gro_30_acc':cwp['30+ Delinquency Accounts.1'],'act_loans':cwp['Active Loans.1'],
+                                      'pos':pos,'180+%':(cwp['180+ Delinquency Balance.1_y'].div(pos.where(pos != 0,0)))*100,'gr_1-30':(cwp['1+ Delinquency Balance.1']-cwp['30+ Delinquency Balance.1']).div(pos.where(pos != 0,0))*100,'Woff':cwp['WOF Delinquency Balance.1'],'p1_mfi':pwp['No. of Institutions.'],'p2_mfi':pwp['No. of Institutions..1'],'p3_mfi':pwp['No. of Institutions..2'],'p4_mfi':pwp['No. of Institutions..3'],'p5_mfi':pwp['No. of Institutions..4'],
+                                      'gro_d_amt':cwp['Disbursed Amount.1'],'avg_tic':cwp['Average Ticket Size.1']
+                        }).fillna(0).replace([np.inf, -np.inf], 0)
+                    st.download_button(label='Download Industry Scenario',data=isr.to_csv(index=False),file_name='Industry Scenario.csv')  
                 
-               st.download_button(label='Download New_Area_Expansion',data=nae.to_csv(index=False),file_name='New_Area_Expansion.csv')   
-           
+                    to_delete = ['pwp','nae','isr','cwp','cws','cwd','pwd','pws']
+                    for _var in to_delete:
+                        if _var in locals() or _var in globals():
+                            exec(f'del {_var}')
+                    gc.collect()         
+                except:
+                    st.write('Something gone wrong with Industry Scenario Processing')
+                    
+               # oo=gpd.read_file(r"C:\Users\THIS-LAPPY\Dropbox\shp file\India Shapefile\India.shp")
+              
+               # st.download_button(
+               #              label="Download data",
+               #              data=oo.to_json(),
+               #              file_name='india.geojson',
+               #              mime='application/geo+json',
+               #          )             
                
     st.write("### Code")
 
