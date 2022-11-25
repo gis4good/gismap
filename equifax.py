@@ -144,8 +144,8 @@ def app():
                except:
                     st.write('Something gone wrong with New_Area_Expansion Processing') 
                
-            if len(cwp)>1:    
-                try:
+           
+               try:
                     cwp=cwp.merge(cws[['Pincode','No. of Loans.1','Disbursed Amount.1','Average Ticket Size.1']],on='Pincode', how='left').fillna(0)
                     cwp=cwp.merge(cwd[['Pincode','O/S Balance.1','1+ Delinquency Balance.1','30+ Delinquency Balance.1','30+ Delinquency Accounts.1','180+ Delinquency Balance.1','WOF Delinquency Balance.1']],on='Pincode', how='left').fillna(0)
                     
@@ -161,7 +161,7 @@ def app():
                         if _var in locals() or _var in globals():
                             exec(f'del {_var}')
                     gc.collect()         
-                except:
+               except:
                     st.write('Something gone wrong with Industry Scenario Processing')
                     
                # oo=gpd.read_file(r"C:\Users\THIS-LAPPY\Dropbox\shp file\India Shapefile\India.shp")
