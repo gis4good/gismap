@@ -120,6 +120,7 @@ def app():
             st.write('Your File is ready to Download')
             if len(cwp)>1:
                try: 
+                   gif_runner = st.image('light.gif')
                    pwp=pwp.merge(pws[['Pincode','Average Ticket Size','Average Ticket Size.1','Average Ticket Size.2','Average Ticket Size.3','Average Ticket Size.4','No. of Loans','No. of Loans.1','No. of Loans.2','No. of Loans.3','No. of Loans.4','Disbursed Amount','Disbursed Amount.1','Disbursed Amount.2','Disbursed Amount.3','Disbursed Amount.4']],on='Pincode', how='left').fillna(0)  
                    pwp=pwp.merge(pwd[['Pincode','1+ Delinquency Balance','1+ Delinquency Balance.1','1+ Delinquency Balance.2','1+ Delinquency Balance.3','1+ Delinquency Balance.4',
                        '30+ Delinquency Balance','30+ Delinquency Balance.1','30+ Delinquency Balance.2','30+ Delinquency Balance.3','30+ Delinquency Balance.4',
@@ -160,7 +161,8 @@ def app():
                     for _var in to_delete:
                         if _var in locals() or _var in globals():
                             exec(f'del {_var}')
-                    gc.collect()         
+                    gc.collect()    
+                    gif_runner.empty()
                except:
                     st.write('Something gone wrong with Industry Scenario Processing')
                     
