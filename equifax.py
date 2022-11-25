@@ -143,7 +143,7 @@ def app():
                    nae[pp]=np.where(nae[pp]>100,100,nae[pp])
                    st.download_button(label='Download New_Area_Expansion',data=nae.to_csv(index=False),file_name='New_Area_Expansion.csv')   
                except:
-                    st.write('Something gone wrong with New_Area_Expansion Processing') 
+                    st.write('Something gone wrong with New Area Expansion Processing') 
                
            
                try:
