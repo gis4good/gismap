@@ -40,7 +40,7 @@ def app():
     set_bg_hack_url() 
     st.header('')
     st.write("""
-    #   Equifax Processor
+    #   ISR Processor
         Please provide your path containing only equifax peer wise csv's. 
     """)
     multiple_files = st.file_uploader(
