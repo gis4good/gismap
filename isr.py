@@ -7,7 +7,7 @@ Created on Tue Nov 29 16:27:55 2022
 
 import streamlit as st,numpy as np
 import streamlit.components.v1 as components
-import requests,io,pandas as pd,gc
+import requests,io,pandas as pd,gc,time
 
 def app():
     
@@ -125,6 +125,7 @@ def app():
                    st.download_button(label='P1+P2',data=nae.to_csv(index=False),file_name='p1_p2.csv') 
                    st.download_button(label='Total',data=nae1.to_csv(index=False),file_name='total.csv')   
                    gif_runner.empty()  
+                   time.sleep(20) 
                except:
                     st.write('Something gone wrong with ISR Processing') 
                
