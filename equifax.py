@@ -6,7 +6,7 @@ Created on Sat Nov 19 12:26:18 2022
 """
 import streamlit as st,numpy as np
 import streamlit.components.v1 as components
-import requests,io,pandas as pd,gc
+import requests,io,pandas as pd,gc,time
 
 def app():
     
@@ -182,6 +182,7 @@ def app():
                            exec(f'del {_var}')
                    gc.collect()     
                    gif_runner.empty()
+                   time.sleep(20) 
                    
                except:
                     st.write('Something gone wrong with Industry Peer Disbursement Processing')     
