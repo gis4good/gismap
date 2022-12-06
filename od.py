@@ -13,7 +13,7 @@ def app():
     
     
     st.header("""
-    Welcome to Annapurna Finance Pvt Ltd - Branch Split Dashboard
+    Welcome to Annapurna Finance Pvt Ltd.
     """)
     # streamlit_app.py
     
