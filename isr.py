@@ -122,7 +122,7 @@ def app():
 
                    nae1[pp]=np.where(nae1[pp]>100,100,nae1[pp])
                    st.write('Your File is ready to Download')
-                   st.download_button(label='P1+P2',data=nae.to_csv(index=False),file_name='p1_p2.csv') 
+                   st.download_button(label='P2+P5',data=nae.to_csv(index=False),file_name='p2_p5.csv') 
                    st.download_button(label='Total',data=nae1.to_csv(index=False),file_name='total.csv')   
                    gif_runner.empty()  
                    time.sleep(20) 
