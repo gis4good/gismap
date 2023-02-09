@@ -53,7 +53,7 @@ def app():
             f"File name: {file.name} ({file.size})"
         )
         data = io.BytesIO(file.getbuffer())
-        df=pd.read_csv(data,header=1,sep='\t',encoding="utf-16").fillna(0)
+        df=pd.read_csv(data).fillna(0)
     
     try:
         sl=df.groupby(['Parent Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Gp Name':'count','No_groups':lambda x: x.notnull().sum()})
