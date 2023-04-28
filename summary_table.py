@@ -56,25 +56,29 @@ def app():
         df=pd.read_csv(data)
     
     try:
-        sl=df.groupby(['Parent Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Gp Name':'count','No_groups':lambda x: x.notnull().sum()})
-        sl1=df.groupby(['Parent Branch','Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Gp Name':'count','No_groups':lambda x: x.notnull().sum()})
+         sl=df.groupby(['Parent Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
+         sl1=df.groupby(['Parent Branch','Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
+         slp=df.groupby(['Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
+        if sl1['Proposed Branch'][0]=='' or sl1['Proposed Branch'][0] is np.nan:
+            slf=sl1[sl1['Proposed Branch']==''].reset_index(drop=True)
         
             
         
         smry=pd.DataFrame()    
-        smry=smry.append({'Branch Type':'Split Branch','Name':sl1['Proposed Branch'][0],'Total No. of Villages':sl1['Gp Name'].sum(),'Total No. of Villages with Portfolio':sl1['No_groups'].sum(),
-                          'Total POS':sl1['pos'].sum(),'Total Clients':sl1['clients'].sum(),'Total PAR(LKH)':sl1['Par amount'].sum(),'Total OD Clients':sl1['Od Members'].sum(),'No.of Household':sl1['No. households'].sum()},ignore_index=True)
+        smry=smry.append({'Branch Type':'Split Branch','Name':slp['Proposed Branch'][1],'Total No. of Villages':slp['Census ID'][1],'Total No. of Villages with Portfolio':slp['No_groups'][1],
+                          'Total POS':slp['pos'][1],'Total Clients':slp['clients'][1],'Total PAR(LKH)':slp['Par amount'][1],'Total OD Clients':slp['Od Members'][1],'No.of Household':slp['No. households'][1]},ignore_index=True)
         
         
         for i in range(len(sl)):
             for j in range(0,2):
                 if j==0:
-                    smry=smry.append({'Branch Type':f'Parent {i+1}(Before Splitting)','Name':sl['Parent Branch'][i],'Total No. of Villages':sl['Gp Name'][i].sum(),'Total No. of Villages with Portfolio':sl['No_groups'][i].sum(),
-                                      'Total POS':sl['pos'][i].sum(),'Total Clients':sl['clients'][i].sum(),'Total PAR(LKH)':sl['Par amount'][i].sum(),'Total OD Clients':sl['Od Members'][i].sum(),'No.of Household':sl['No. households'][i].sum()},ignore_index=True)
+                    smry=smry.append({'Branch Type':f'Parent {i+1}(Before Splitting)','Name':sl['Parent Branch'][i],'Total No. of Villages':sl['Census ID'][i],'Total No. of Villages with Portfolio':sl['No_groups'][i],
+                                      'Total POS':sl['pos'][i],'Total Clients':sl['clients'][i],'Total PAR(LKH)':sl['Par amount'][i],'Total OD Clients':sl['Od Members'][i],'No.of Household':sl['No. households'][i]},ignore_index=True)
                 else:
-                    smry=smry.append({'Branch Type':f'Parent {i+1}(After Splitting)','Name':sl['Parent Branch'][i],'Total No. of Villages':sl['Gp Name'][i].sum()-sl1['Gp Name'][i].sum(),'Total No. of Villages with Portfolio':sl['No_groups'][i].sum()-sl1['No_groups'][i].sum(),
-                                      'Total POS':sl['pos'][i].sum()-sl1['pos'][i].sum(),'Total Clients':sl['clients'][i].sum()-sl1['clients'][i].sum(),'Total PAR(LKH)':sl['Par amount'][i].sum()-sl1['Par amount'][i].sum(),'Total OD Clients':sl['Od Members'][i].sum()-sl1['Od Members'][i].sum(),'No.of Household':sl['No. households'][i].sum()-sl1['No. households'][i].sum()},ignore_index=True)
+                    smry=smry.append({'Branch Type':f'Parent {i+1}(After Splitting)','Name':sl['Parent Branch'][i],'Total No. of Villages':slf['Census ID'][i],'Total No. of Villages with Portfolio':slf['No_groups'][i],
+                                      'Total POS':slf['pos'][i],'Total Clients':slf['clients'][i],'Total PAR(LKH)':slf['Par amount'][i],'Total OD Clients':slf['Od Members'][i],'No.of Household':slf['No. households'][i]},ignore_index=True)
                 
+           
                     
         smry['Total POS']=smry['Total POS']/10000000
         smry['Total PAR(LKH)']=smry['Total PAR(LKH)']/100000    
