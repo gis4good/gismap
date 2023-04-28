@@ -56,9 +56,9 @@ def app():
         df=pd.read_csv(data)
     
     try:
-         sl=df.groupby(['Parent Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
-         sl1=df.groupby(['Parent Branch','Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
-         slp=df.groupby(['Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
+        sl=df.groupby(['Parent Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
+        sl1=df.groupby(['Parent Branch','Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
+        slp=df.groupby(['Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
         if sl1['Proposed Branch'][0]=='' or sl1['Proposed Branch'][0] is np.nan:
             slf=sl1[sl1['Proposed Branch']==''].reset_index(drop=True)
         
