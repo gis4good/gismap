@@ -56,6 +56,7 @@ def app():
         df=pd.read_csv(data)
     
     try:
+        df['Proposed Branch']=df['Proposed Branch'].replace(np.nan,'')
         sl=df.groupby(['Parent Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
         sl1=df.groupby(['Parent Branch','Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
         slp=df.groupby(['Proposed Branch'],as_index=False).agg({'clients':'sum','pos':'sum','Par amount':'sum','Od Members':'sum','No. households':'sum','Census ID':'count','No_groups':lambda x: x.notnull().sum()})
@@ -86,5 +87,5 @@ def app():
         st.write('Your File is ready to Download')
         st.download_button(label='Summary Table',data=smry.to_csv(index=False),file_name='summary_table.csv') 
         
-    except:
-        st.write('Something is wrong with the column names or data error')
+    except Exception as e:
+        st.write(e)
