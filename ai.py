@@ -32,7 +32,7 @@ def app():
               f"""
               <style>
               .stApp {{
-                  background: url("ai.jpg");
+                  background: url("https://www.dropbox.com/s/jlx09kphsjz9rq7/ai.jpg?raw=1");
                   background-size: cover
               }}
               </style>
