@@ -32,7 +32,7 @@ def app():
               f"""
               <style>
               .stApp {{
-                  background: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=1380&t=st=1692197266~exp=1692197866~hmac=df69b0e366c4245dffea626b76049b3886d280a02340ba9bfb59f017d880c4b5");
+                  background: url("ai.jpg");
                   background-size: cover
               }}
               </style>
@@ -44,7 +44,7 @@ def app():
     
     st.header('')
     st.write("""
-    # AI Potential Detection 
+    # AI Field Detection 
     """)
     
    
