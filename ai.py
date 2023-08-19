@@ -75,7 +75,7 @@ def app():
         control = True
        ).add_to(m)
     
-    map = st_folium(m, height=600, width=700)
+    map = st_folium(m, height=480, width=700)
 
     data = None
     if map.get("last_clicked"):
