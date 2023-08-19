@@ -13,13 +13,6 @@ from streamlit_folium import st_folium
 
 def app():
     
-    
-    st.header("""
-    Welcome to Annapurna Finance Pvt Ltd - AI 
-    """)
-    # streamlit_app.py
-    
-    
     def set_bg_hack_url():
          '''
          A function to unpack an image from url and set as bg.
