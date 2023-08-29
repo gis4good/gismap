@@ -71,26 +71,25 @@ def app():
     map = st_folium(m, height=480, width=700)
 
     data = None
+    st.markdown(f"<span style='color: red;'>Please click on the map to get coordinates/Currently Viewing State of {a}</span>", unsafe_allow_html=True)
+    data = None
     if map.get("last_clicked"):
         data = get_pos(map["last_clicked"]["lat"], map["last_clicked"]["lng"])
     
     if data is not None:
-        st.write('Copy the coordinates='+str(data)[1:-1]) # Writes to the app
-
-    # folium_static(m,width=762) 
-    data = st.text_input('Enter the Cords')
+        data = st.text_input('Your last clicked or Enter Coordinates',str(data)[1:-1])
     
     if st.button('Process'):  
        gif_runner = st.image('https://media.giphy.com/media/dwaeIbBnF6HBu/giphy.gif') 
        data=data.split(',')
        lat=data[0]
        long=data[1] 
-       vv=requests.get(f'https://aegrus.serveo.net/ai/?x1={long}&y1={lat}') 
+       vv=requests.get(f'https://exitus.serveo.net/ai/?x1={long}&y1={lat}') 
        # image = Image.open(r"D:\heroku\demo.jpg")
        # st.image(image, caption=str(vv.content),use_column_width=True)
        # st.write('The given coordinate is a'+vv.content)
        pp=str(float(long)+float(lat))+'.gif'
-       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://aegrus.serveo.net/static/images/{pp}"'),height=400)
+       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://exitus.serveo.net/static/images/{pp}"'),height=400)
        gif_runner.empty()
         
         
