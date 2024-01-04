@@ -67,7 +67,7 @@ def app():
         overlay = False,
         control = True
        ).add_to(m)
-    folium.GeoJson(r"D:\heroku\state.json", name="GeoJSON").add_to(m)
+    folium.GeoJson("state.json", name="GeoJSON").add_to(m)
 
     map = st_folium(m, height=480, width=700)
 
