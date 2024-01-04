@@ -89,7 +89,7 @@ def app():
        # st.image(image, caption=str(vv.content),use_column_width=True)
        # st.write('The given coordinate is a'+vv.content)
        pp=str(float(long)+float(lat))+'.gif'
-       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/static/images/{pp}"'),height=400)
+       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/static/images/{pp}"').replace(f'<img src="/static/images/{pp1}"',f'<img src="https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/static/images/{pp1}"'),height=800)
        gif_runner.empty()
         
         
