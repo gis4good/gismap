@@ -84,12 +84,12 @@ def app():
        data=data.split(',')
        lat=data[0]
        long=data[1] 
-       vv=requests.get(f'https://peto.serveo.net/ai/?x1={long}&y1={lat}') 
+       vv=requests.get(f'https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/ai/?x1={long}&y1={lat}') 
        # image = Image.open(r"D:\heroku\demo.jpg")
        # st.image(image, caption=str(vv.content),use_column_width=True)
        # st.write('The given coordinate is a'+vv.content)
        pp=str(float(long)+float(lat))+'.gif'
-       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://peto.serveo.net/static/images/{pp}"'),height=400)
+       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/static/images/{pp}"'),height=400)
        gif_runner.empty()
         
         
