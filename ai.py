@@ -84,13 +84,13 @@ def app():
        data=data.split(',')
        lat=data[0]
        long=data[1] 
-       vv=requests.get(f'https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/ai/?x1={long}&y1={lat}') 
+       vv=requests.get(f'https://362e38fc0560a2df82c7f957788f3ff4.serveo.net/ai/?x1={long}&y1={lat}') 
        # image = Image.open(r"D:\heroku\demo.jpg")
        # st.image(image, caption=str(vv.content),use_column_width=True)
        # st.write('The given coordinate is a'+vv.content)
        pp=str(float(long)+float(lat))+'.gif'
        pp1=str(float(long)+float(lat))+'tm'+'.jpg' 
-       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/static/images/{pp}"').replace(f'<img src="/static/images/{pp1}"',f'<img src="https://de60c7fe9a09fd312d33f322aa0b345d.serveo.net/static/images/{pp1}"'),height=800)
+       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://362e38fc0560a2df82c7f957788f3ff4.serveo.net/static/images/{pp}"').replace(f'<img src="/static/images/{pp1}"',f'<img src="https://362e38fc0560a2df82c7f957788f3ff4.serveo.net/static/images/{pp1}"'),height=800)
        gif_runner.empty()
         
         
