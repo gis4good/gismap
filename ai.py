@@ -85,13 +85,13 @@ def app():
        data=data.split(',')
        lat=data[0]
        long=data[1] 
-       vv=requests.get(f'https://143.244.129.86:5050/ai/?x1={long}&y1={lat}',verify=False) 
+       vv=requests.get(f'http://143.244.129.86:5050/ai/?x1={long}&y1={lat}',verify=False) 
        # image = Image.open(r"D:\heroku\demo.jpg")
        # st.image(image, caption=str(vv.content),use_column_width=True)
        # st.write('The given coordinate is a'+vv.content)
        pp=str(float(long)+float(lat))+'.gif'
        pp1=str(float(long)+float(lat))+'tm'+'.jpg' 
-       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="https://143.244.129.86:5050/static/images/{pp}"').replace(f'<img src="/static/images/{pp1}"',f'<img src="https://143.244.129.86:5050/static/images/{pp1}"'),height=800)
+       st.components.v1.html(vv.text.replace(f'<img src="/static/images/{pp}"',f'<img src="http://143.244.129.86:5050/static/images/{pp}"').replace(f'<img src="/static/images/{pp1}"',f'<img src="http://143.244.129.86:5050/static/images/{pp1}"'),height=800)
        gif_runner.empty()
         
         
