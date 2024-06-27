@@ -1,5 +1,5 @@
 streamlit
-numpy
+numpy==1.26.1
 pydeck
 matplotlib
 streamlit_folium
