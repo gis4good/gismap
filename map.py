@@ -5,7 +5,7 @@ Created on Tue Jun 28 10:37:34 2022
 @author: THIS-LAPPY
 """
 
-import streamlit as st,msme,main,demo,om,ism,bpm,od,bpm_sheets,equifax,isr,summary_table,ai
+import streamlit as st,msme,main,om,ism,bpm,od,bpm_sheets,equifax,isr,summary_table,ai
 import streamlit.components.v1 as components
 
 # >>> import plotly.express as px
