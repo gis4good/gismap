@@ -75,7 +75,7 @@ if check_password():
     PAGES = {
     "Main Page": main,
     "MSME Branches": msme,
-    "Branch Split":demo,
+    #"Branch Split":demo,
     "OM Maps":om,
     "BPM Maps":bpm,
     "BPM SHeets":bpm_sheets,
